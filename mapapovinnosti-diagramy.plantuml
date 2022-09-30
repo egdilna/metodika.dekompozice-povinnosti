@@ -1,0 +1,79 @@
+@startuml mapapovinnosti-datovymodel
+title Datový model Mapy EG povinností
+left to right direction
+CLASS "Povinnost" as Povinnost <<Object>> {
+* Kód (Text)
++ Název povinnosti (Text)
++ Popis povinnosti (Text)
++ Určuje (Text)
++ Typ (Value)
++ Skupina (Multivalue)
++ Subjekty (Multivalue)
++ Předpisy (Multivalue)
++ Verze (Integer)
++ Aktualizace (Date)
++ Poznámky k verzi (Memo)
+}
+CLASS "Právní předpis" as pp <<List>>
+ENUM "Číselník skupin povinností" as csp <<Codebook>> 
+ENUM "Číselník subjektů a jejich skupin povinností" as csb <<Codebook>>
+ENUM Typ <<Codebook>> {
+Povinnost
+Právo
+}
+Povinnost::Předpisy <-- pp
+Povinnost::Skupina <-[dotted]- csp
+Povinnost::Subjekty <-[dotted]- csb
+Povinnost::Typ <-[dotted]- Typ
+@enduml
+
+@startuml assessment-povinnosti-datovy-model
+title Datový model Assessmentu povinností
+
+CLASS "Povinnost" as Povinnost <<Object>> {
+* Kód (Text)
++ Název_povinnosti (Text)
++ Popis_povinnosti (Text)
++ Určuje (Text)
++ Typ (Value)
++ Skupina (Multivalue)
++ Subjekty (Multivalue)
++ Předpisy (Multivalue)
++ Verze (Integer)
++ Aktualizace (Date)
++ Poznámky k verzi (Memo)
+}
+CLASS "Plnění povinnosti" as Plnění <<Object>> {
+* Kód (Text)
++ Název_povinnosti (Text)
++ Popis_povinnosti (Text)
++ Určuje (Text)
++ Skupina (Multivalue)
++ Subjekty (Multivalue)
++ Předpisy (Multivalue)
++ Verze (Integer)
++ Stav_plnění(Value)
++ Zodpo vědný(Value)
++ Priorita_nápravy (Integer)
++ Termín_nápravy (Date)
++ Popis_nápravy (Memo)
++ Vyhodnocení_nápravy (Memo)
++ Aktualizace_záznamu (Date)
+}
+ENUM  "Číselník Stav plnění" as cstavy <<Codevalue>> {
+Plní zcela
+Dosud neplní
+Plní částečně
+Není relevantní
+}
+
+Plnění::Kód <- Povinnost::Kód
+Plnění::Název_povinnosti <- Povinnost::Název_povinnosti
+Plnění::Popis_povinnosti <- Povinnost::Popis_povinnosti
+Plnění::Určuje <- Povinnost::Určuje
+Plnění::Skupina <- Povinnost::Skupina
+Plnění::Subjekty <- Povinnost::Subjekty
+Plnění::Předpisy <- Povinnost::Předpisy
+Plnění::Verze <- Povinnost::Verze
+Plnění::Stav_plnění <- cstavy
+@enduml
