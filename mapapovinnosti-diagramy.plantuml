@@ -53,7 +53,7 @@ CLASS "Plnění povinnosti" as Plnění <<Object>> {
 + Předpisy (Multivalue)
 + Verze (Integer)
 + Stav_plnění(Value)
-+ Zodpo vědný(Value)
++ Zodpovědný(Value)
 + Priorita_nápravy (Integer)
 + Termín_nápravy (Date)
 + Popis_nápravy (Memo)
