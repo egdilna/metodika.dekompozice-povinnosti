@@ -4,11 +4,14 @@ Title: Metodika zhodnocení plnění povinností a provádění Assessmentu EG p
 
 # Úvod
 
-## Účel a použití metodiky
+## 🖋 Účel a použití metodiky
+
+Tato metodika slouží pro poznání a návody, jak sledovat a zhodnotit plnění svých povinností k eGovernmentu. Díky tomuto dokumentu a zde uevedeným postupům úřad zvládne jednu z částí řízení ICT a služeb a tou je zhodnocení plnění EG povinností (assessment povinností) a také pochopí jeho přínosy a bude schopen získané znalůosti použít pro zvýšení efektivity úřadu.
+
 
 ## Historie změn
 
-Toto je první verze metodiky.
+Toto  je první verze metodiky.
 
 # Úřad a Povinnosti
 
