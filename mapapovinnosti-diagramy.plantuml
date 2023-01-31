@@ -53,7 +53,7 @@ CLASS "Plnění povinnosti" as Plnění <<Object>> {
 + Předpisy (Multivalue)
 + Verze (Integer)
 + Stav_plnění(Value)
-+ Zodpovědný(Value)
++ Zodpo vědný(Value)
 + Priorita_nápravy (Integer)
 + Termín_nápravy (Date)
 + Popis_nápravy (Memo)
@@ -77,3 +77,96 @@ Plnění::Předpisy <- Povinnost::Předpisy
 Plnění::Verze <- Povinnost::Verze
 Plnění::Stav_plnění <- cstavy
 @enduml
+
+@startuml assessmentpovinnostibigpicture
+allow_mixing
+left to right direction
+ACTOR "Vedení úřadu" as VedeniUradu <<Osoba>>
+USECASE "Rozhodnutí o vytvoření prvního Assessmentu povinností" as RozhodnutiTvorba <<Událost>>
+USECASE "Určení Garanta Assessmentu povinností" as UrceniGarant <<Událost>>
+VedeniUradu -- RozhodnutiTvorba
+RozhodnutiTvorba - UrceniGarant
+VedeniUradu -- UrceniGarant
+ACTOR "Garant Assessmentu povinností" as Garant <<Role>>
+USECASE "Příprava seznamu povinností pro zhodnocení" as Pripravaseznamu <<Činnost>>
+Garant --  Pripravaseznamu
+USECASE "Výběr nástroje a způsobu zpracování Assessmentu" as Nastroj <<Činnost>>
+USECASE "Vytvořit v nástroji podklad pro Assessment a přidat povinná pole" as PripravitTabulku <<Událost>>
+Pripravaseznamu --  Nastroj
+Nastroj - PripravitTabulku
+USECASE "Výběr relevantních povinností" as Vyber <<Činnost>>
+PripravitTabulku - Vyber
+'Garant --  Vyber
+USECASE "Identifikace rolí podle Subjektů v Mapě EG povinností" as IdentifikaceRoli <<Činnost>>
+USECASE "Vyfiltrování mých povinností podle Subjektů" as Filtrovani <<Událost>>
+USECASE "Export či přenos relevantních povinností do nástroje či tabulky Assessmentu" as ExportDoNastroje <<Událost>> 
+Vyber --  IdentifikaceRoli 
+IdentifikaceRoli - Filtrovani 
+Filtrovani - ExportDoNastroje
+USECASE "Vytvoření Assessmentu povinností" as VytvoreniAssessmentu <<Činnost>>
+Garant --  VytvoreniAssessmentu
+'CLASS "Assessment povinností" as VecAssessmentpovinnosti <<Věc>>
+'Garant . VecAssessmentpovinnosti
+USECASE "Určení zodpovědného útvaru" as UrceniZodpovedny <<Událost>>
+ACTOR "Zodpovědný útvar" as Zodpovedny <<Role>>
+USECASE "Vyhodnocení plnění povinnosti" as Vyhodnoceni <<Činnost>>
+VytvoreniAssessmentu  - UrceniZodpovedny
+VytvoreniAssessmentu --  Vyhodnoceni
+Zodpovedny --  Vyhodnoceni
+USECASE "Určit stávající skutečný stav naplnění povinnosti v celém úřadu" as PosouditStav <<Událost>>
+USECASE "Vyplnit hodnotu pro Stav plnění povinnosti dle číselníku stavů" as VyplnitStav <<Událost>>
+USECASE "Stanovení základních kroků pro nápravu plnění" as StanoveniKroku <<Činnost>>
+USECASE "Stanovení priority pro nápravu" as StanoveniPriority <<Činnost>>
+USECASE "Podklady v Assessmentu povinností jsou kompletní" as Kompletni <<Událost>>
+
+Vyhodnoceni --  PosouditStav
+PosouditStav - VyplnitStav
+
+VyplnitStav - StanoveniKroku
+StanoveniKroku - StanoveniPriority
+Vyhodnoceni - Kompletni
+USECASE "Projednání Assessmentu povinností" as Projednani <<Činnost>>
+Kompletni -- Projednani
+VedeniUradu --  Projednani
+USECASE "Schválení verze Assessmentu povinností" as Schvaleni <<Událost>>
+USECASE "Zařazení Assessmentu povinností k Informační koncepci úřadu" as IKzarazeni <<Událost>>
+USECASE "Přijmout technicko organizační opatření pro splnění kroků narovnání povinností" as PrijmoutOpatreni <<Událost>>
+USECASE "Promítnutí nápravných kroků do Informační koncepce úřadu" as IKpromitnuti <<Událost>>
+Projednani --  Schvaleni
+Schvaleni - IKzarazeni
+IKzarazeni- PrijmoutOpatreni
+PrijmoutOpatreni - IKpromitnuti
+
+VedeniUradu - Garant
+Garant . Zodpovedny
+@enduml
+
+@startuml assessmentpovinnostikdoco
+allow_mixing
+left to right direction
+ACTOR "Vedení úřadu" as VedeniUradu <<Osoba>>
+ACTOR "Garant Assessmentu povinností" as Garant <<Role>>
+USECASE "Rozhodnutí o vytvoření prvního Assessmentu povinností" as RozhodnutiTvorba <<Událost>>
+USECASE "Určení Garanta Assessmentu povinností" as UrceniGarant <<Událost>>
+USECASE "Příprava seznamu povinností pro zhodnocení" as Pripravaseznamu <<Činnost>>
+VedeniUradu -- RozhodnutiTvorba
+VedeniUradu -- UrceniGarant
+Garant --  Pripravaseznamu
+USECASE "Vytvoření Assessmentu povinností" as VytvoreniAssessmentu <<Činnost>>
+Garant --  VytvoreniAssessmentu
+ACTOR "Zodpovědný útvar" as Zodpovedny <<Role>>
+USECASE "Vyhodnocení plnění povinnosti" as Vyhodnoceni <<Činnost>>
+Zodpovedny --  Vyhodnoceni
+USECASE "Projednání Assessmentu povinností" as Projednani <<Činnost>>
+VedeniUradu --  Projednani
+ACTOR "Zodpovědný útvar za tvorbu a uplatňování a vyhodnocování Informační koncepce úřadu" as IKzodpovedny <<Role>>
+USECASE "Zařazení Assessmentu povinností k Informační koncepci úřadu" as IKzarazeni <<Událost>>
+USECASE "Přijmout technicko organizační opatření pro splnění kroků narovnání povinností" as PrijmoutOpatreni <<Událost>>
+VedeniUradu -- PrijmoutOpatreni
+USECASE "Promítnutí nápravných kroků do Informační koncepce úřadu" as IKpromitnuti <<Událost>>
+IKzodpovedny -- IKzarazeni
+IKzodpovedny -- IKpromitnuti
+VedeniUradu - Garant
+Garant . Zodpovedny
+@enduml
+
