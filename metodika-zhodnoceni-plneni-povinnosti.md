@@ -1,5 +1,6 @@
 ---
 Title: Metodika zhodnocení plnění povinností a provádění Assessmentu EG povinností a jeho udržování
+subtitle: Metodický dokument pro OVM zpracovávající si přehled svých EG obecných povinností a jejich zhodnocení, obsahuje popisnou a praktickou část s uvedením jednotlivých kroků a procesů
 ---
 
 DOPSAT titulku a kecy o diplomce
@@ -14,7 +15,7 @@ Toto je metodický a návodný dokument pro všechny úřady, které chtějí vy
 Tento dokument a veškerý jeho obsah je pod otevřenou licencí CC v souladu s licencí Národní architektury eGovernmentu uvedené na webu archi.gov.cz. Kdokoliv může tento dokument libovolně použít a upravit jej dle svého, je ale vždy povinen uvést zdroj dokumentu, kterým je EGdílna. Dokument je součástí výstupu diplomové práce Miroslava Pavelky vedené na Katedře informačních technologií Provozně ekonomické fakulty České zemědělské univerzity v Praze. Dokument je možno použít a publikovat samostatně bez nutnosti znát diplomovou práci.
 
 Provozně ekonomická fakulta České zemědělské univerzity v Praze,
-obor Veřejná správa a regionální rozvoj
+obor Veřejná správa a regionální rozvoj, akademický rok 2022/2023
 
 Dokument (C) 2022-2023 EGdílna (www.egdilna.cz). Dokument vytvořen s asistencí a pro potřeby metodického kompetenčního centra.
 
@@ -22,10 +23,15 @@ Autoři dokumentu: Miroslav Pavelka, Michal Rada, Vladimír Dvořák, Jan Jakoub
 
 Dokument je v otevřeném formátu spolu se všemi souvislostmi a zdroji na veřejném GIT repozitáři na adrese
 
-DOPLNIT adresu GITu
+https://github.com/egdilna/metodika.dekompozice-povinnosti
+
+Aktuální verze metodiky je vždy k dispozici na webu EG metodiky na adrese
+
+https://egdilna.cz/metodiky
 
 
-## 🖋 Účel a použití metodiky
+
+## KEKOREKTUŘE Účel a použití metodiky
 
 Tato metodika slouží pro poznání a návody, jak sledovat a zhodnotit plnění svých povinností k eGovernmentu. Díky tomuto dokumentu a zde uvedeným postupům úřad zvládne jednu z částí řízení ICT a služeb, a tou je zhodnocení plnění EG povinností (assessment povinností), a také pochopí jeho přínosy a bude schopen získané znalosti použít pro zvýšení efektivity úřadu.
 
@@ -113,13 +119,102 @@ Povinnosti jako takové se defacto dají rozdělit do dvou forem/kategorií.
 Tato metodika se dále věnuje pouze druhé skupině povinností, neboť co se týče plnění agendových služeb a činností, k tomu existují jiné metodiky a navíc se postup plnění liší agendu od agendy. My se budeme věnovat jen těm obecným a z toho si vybereme pro účely zmapování stavu úřadu ty povinnosti, které se týkají digitalizace a tedy tzv. EG zákonů.
 
 
-## 🖋 Mapa EG povinností a její použití
+## KEKOREKTUŘE Mapa EG povinností a její použití
+
+Nejen pro soubor povinností úřadu a pro jejich poznání se má využívat Mapa povinností.
+
+### KEKOREKTUŘE Co je to Mapa povinností
+
+Mapa povinností je nástroj, kde jsou evidovány veškeré obecné EG povinnosti. Slouží tedy mimo jiné i jako zdroj povinností pro jejich zhodnocení v úřadu. Mapa povinností je zveřejněna na internetu a to jak formou webové aplikace umožňující procházení a hledání povinností, tak ve formě datové sady otevřených dat.
+
+Vše o mapě včetně přístupu k jejím nástrojům najdete na adrese
+
+Https://egdilna.cz/mapapovinnosti 
+
+Na tomto webu je i související dokumentace a návody, jak s mapou pracovat.
+
+
+### KEKOREKTUŘE Co se v mapě eviduje a jak
+
+Následuje diagram konceptuálního datového modelu mapy povinností s přehledem vlastností a vazeb:
+
+[Diagram KDM mapy povinností](https://github.com/egdilna/metodika.dekompozice-povinnosti/raw/main/mapapovinnosti-diagramy/mapapovinnosti-datovymodel.png)
+
+O každé povinnosti se vedou následující údaje:
+
+* Vlastnost Kód: Jednoznačný identifikátor povinnosti ve složení Kód, skládá se z označení P a čísla kódu povinnosti. Užívá se jako jednoznačný identifikátor z mapy EG povinností. ()
+* Vlastnost Název povinnosti: Popisný název povinnosti, který se používá jako název v textech. Musí být stručný, ale výstižný, je pochopitelně jednoznačný a jedinečný. ()
+* Vlastnost Popis povinnosti: Textový popis povinnosti, většinou založený na znění konkrétních ustanovení právních předpisů. ()
+* Vlastnost Určuje: Konkrétní ustanovení právních předpisů určující danou povinnost. ()
+* Vlastnost Typ: Typem je buď povinnost, nebo právo. ()
+* Vlastnost Skupina: Jedna či více skupin povinností podle věcné oblasti. ()
+* Vlastnost Subjekty povinnosti: Seznam skupin subjektů, jež mají danou povinnost naplňovat. Obsahuje jednu či více hodnot z číselníku. Vhodné pro třídění a formátování. ()
+* Vlastnost Předpisy: Seznam právních předpisů, jichž se povinnost týká, respektive, které ji definují. Využije se kupříkladu pro přehledné filtrování či pro vazby v RPP. ()
+* Vlastnost Verze: Číslo verze záznamu ()
+* Vlastnost Aktualizace: Datum poslední verze ()
+* Vlastnost Poznámky k verzi: Poznámky zadavatele a editora k povinnosti ()
+
+Nejdůležitějšími číselníky jsou Subjekty a Skupiny povinností. Podrobnosti těchto číselníků jsou přehledně v konceptuálním datovém modelu mapy, který je na webu mapy. Podle těchto hodnot se dá v Mapě povinností skvěle filtrovat a hledat seznam relevantních povinností, což budeme potřebovat při sestavování assessmentu v úřadu.
+
+👉 Příklad: Zde je ukázka jedné povinnosti týkající se zpřístupnění údajů v informačních systémech, jak je zapsána v Mapě povinností:
+
+* Kód: P237
+* Název: Poskytnout subjektu elektronický výpis z ISVS a údaje z ISVS o subjektu
+* Popis: Správce informačního systému veřejné správy musí umožnit držiteli zaručené identity prostředkem zaručené identifikace výpis z informačního systému a údaje z informačního systému o ní vedené, nebo informaci, že informační systém takové údaje neobsahuje. Toto musí umožnit také prostřednictvím Portálu veřejné správy.
+* Určuje: § 9 odst 4 zákona 365/2000
+* Typ: Povinnost
+* Skupina: Povinnosti k ISVS
+* Subjekty: Orgány veřejné moci, Orgány veřejné správy, and Správci informačních systémů
+* Předpisy: Zákon 365/2000
+* Verze: 2
+
+
+### 🖋 Jak s mapou pracovat pro účely poznání a zhodnocení v úřadu
+
+
 
 # Tvorba zhodnocení plnění povinností (assessment povinností)
 
 Dostáváme se k praktickým návodům, jak si v úřadu udělat správně zhodnocení stavu plnění povinností a jak ho využívat pro zlepšení.
 
+
+## 🖋 Co je to Assessment povinností a jak má vypadat?
+
+Cílem v úřadu je kvalitně řídit svoji činnost a zlepšovat se. Jedním ze zásadních zdrojů je právě zhodnocení toho, jak si úřad plní svoje povinnosti. Výsledkem toho je pak Assessment povinnností, což je soubor dat (dokument respektive tabulka respektive databáze) o jednotlivých povinnostech a jejich plnění v daném úřadu a o krocích pro zlepšení jejich plnění.
+
+
+
+V assessmentu se vedou jednotlivé povinnosti a u nich se vedou podrobnosti jednak o povinnosti a jednak o jejím plnění a to v následující struktuře:
+
+![Obecný datový model assessmentu povinností, Zdroj: Metodiky k EG povinnostem and EGdílna](https://github.com/egdilna/metodika.dekompozice-povinnosti/raw/main/mapapovinnosti-diagramy/assessment-povinnosti-datovy-model.png)
+
+
+* Věc Plnění povinnosti: Údaje o vyhodnocení plnění jedné povinnosti. Obsahují z Mapy povinností údaje o samotné povinnosti, ale především stav plnění a potřebné informace k případné nápravě. 
+	* Vlastnost Kód: Jednoznačný identifikátor povinnosti ve složení Kód, skládá se z označení P a čísla kódu povinnosti. Užívá se jako jednoznačný identifikátor z mapy EG povinností. (přebírá se z Mapy povinností)
+	* Vlastnost Název povinnosti: Popisný název povinnosti, který se používá jako název v textech. Musí být stručný, ale výstižný, je pochopitelně jednoznačný a jedinečný. (přebírá se z Mapy povinností)
+	* Vlastnost Popis povinnosti: Textový popis povinnosti, většinou založený na znění konkrétních ustanovení právních předpisů. (přebírá se z Mapy povinností)
+	* Vlastnost Určuje: Konkrétní ustanovení právních předpisů určující danou povinnost. (přebírá se z Mapy povinností)
+	* Vlastnost Skupina: Jedna či více skupin povinností podle věcné oblasti. (přebírá se z Mapy povinností)
+	* Vlastnost Subjekty: Seznam skupin subjektů, jež mají danou povinnost naplňovat. Obsahuje jednu či více hodnot z číselníku. Vhodné pro třídění a formátování. (přebírá se z Mapy povinností)
+	* Vlastnost Předpisy: Seznam právních předpisů, jichž se povinnost týká, respektive, které ji definují. Využije se kupříkladu pro přehledné filtrování či pro vazby v RPP. (přebírá se z Mapy povinností)
+	* Vlastnost Verze: Číslo verze záznamu 
+	* Vlastnost Stav plnění: Hodnota samotného vyhodnocení, jak si daný úřad určitou povinnost plní. Je jednou z hodnot závazného číselníku, znamená obecné vyhodnocení. Podle ní se dá filtrovat a dále třídit a je ukazatelem fit celého assessmentu. 
+	* Vlastnost Zodpovědný: Uvedení jednoho konkrétního útvaru, který v úřadu zodpovídá za dohled a koordinaci k dané povinnosti. Nejedná se tedy o samotný útvar, který povinnost fakticky plní (ne vždy), ale o útvar, který má zajistit její plnění všude, kde je to nutné, napříč celým úřadem. Nejvhodnější je uvést útvar zodpovědný za realizaci dané schopnosti. 
+	* Vlastnost Priorita nápravy: Určení interní priority k potřebě řešení nápravy stavu plnění povinnosti a k realizaci příslušných opatření. (Pochopitelně úřad musí plnit všechny povinnosti a tedy jsou si rovny, nicméně v praxi je prioritnější náprava plnění kupříkladu povinností vůči klientům a jejich právu, apod. Doporučuje se určit si priority 1 až 3 kdy 1 je nutná realizace ihned.)
+	* Vlastnost Termín nápravy: Očekávaný či požadovaný termín nápravy, jde tedy také o nejzasší termín skončení realizace nápravných kroků. 
+	* Vlastnost Popis nápravy: Textový popis toho, co se musí stát, aby se povinnost plnila zcela a beze zbytku. Slouží také jako základ motivace pro definici cílového stavu ICT a realizace jednotlivých projektů a opatření. 
+	* Vlastnost Vyhodnocení nápravy: Textový popis, co se konkrétně změnilo pro nápravu předchozích nevyhovujících stavů. 
+	* Vlastnost Aktualizace záznamu: Datum poslední aktualizace vyhodnocení, většinou se kryje s datumem vydání assessmentu, ale může být pochopitelně i průběžně s jednotlivými změnami. 
+
+
+
 ## 🖋Celkový přehled
+
+Na následujícím přehledovém diagramu je vše pěkně pohromadě. Diagram může na první pohled být složitý, nicméně postupně si v dalších kapitolách vše podrobně projdeme.
+
+[big picture Assessment povinností procesy](https://github.com/egdilna/metodika.dekompozice-povinnosti/raw/main/mapapovinnosti-diagramy/assessmentpovinnostibigpicture.png)
+
+Stručně řečeno jde o sled činností, z nichž nejdůležitější jsou: Určení Garanta Assessmentu povinností, Koordinovat naplnění Assessmentu povinností, Výběr nástroje a způsobu zpracování Assessmentu, Výběr relevantních povinností, Určení zodpovědného útvaru, Vyhodnocení plnění povinnosti, Přijmout technicko-organizační opatření pro splnění kroků narovnání povinností a Promítnutí nápravných kroků do Informační koncepce úřadu
 
 ## ☑️ Důležité role - garant a zodpovědný a některé další
 
@@ -138,6 +233,10 @@ Jako každá aktivita ohledně řízení úřadu jde o věc průřezovou a proto
 * Zodpovědný útvar za tvorbu a uplatňování a vyhodnocování Informační koncepce úřadu: Útvar v úřadu, který je zodpovědný za tvorbu, vyhodnocování a zpracovávání aktualizací Informační koncepce úřadu a za soulad s IKČR. ()
 * Útvar řízení kvality úřadu: Určený útvar či pracovník, který má v úřadu ve své gesci řízení a vyhodnocování kvality. ()
 * Manažer kvality v úřadu: Role Manažera kvality obsazená na základě povinnosti sledovat a vyhodnocovat kvalitu v úřadu. Pro oblast zhodnocení plnění povinností a Assessmentu je důležitý, neboť pro něj Assessment znamená jeden ze základních vstupů stran poznání skutečné kvality služeb úřadu a také kvality v oblasti Compliance. ()"
+
+Na obrázku níže je přehled co která role obecně dělá, respektive za co je zodpovědná.
+
+[Přehled za co kdo zodpovídá](https://github.com/egdilna/metodika.dekompozice-povinnosti/raw/main/mapapovinnosti-diagramy/assessmentpovinnostikdoco.png)
 
 ## Fáze přípravy
 
@@ -191,14 +290,36 @@ Máme tedy zpracovaný podklad jako assessment, co teď?
 # Tvorba Roční aktualizace Assessmentu povinností
 
 
-# Vyhodnocení stavu plnění povinnosti a kroky k nápravě
+# KEKOREKTUŘE Vyhodnocení stavu plnění povinnosti a kroky k nápravě
 
 Nejdůležitější částí assessmentu je právě zhodnocení u jednotlivých povinností, proto se celý assessment dělá. Ať už bude samotné zhodnocení veřejnou částí informační koncepce, či nikoliv, je nezbytné, abychom byly při vyhodnocování opravdu upřímní a pravdiví. Stavy vyhodnocení nám má sloužit pro lepší poznání a hlavně jako zdroj pro potřebné změny. Může se jednat o změny procesní, legislativní, technické či architektonické.
 
-## Obecný postup při zhodnocení plnění povinnosti
+## KEKOREKTUŘE Obecný postup při zhodnocení plnění povinnosti
 
 1. Určíme si, které povinnosti jsou pro nás relevantní a které nnikoliv.
 2. Určíme útvar (a pokud možno konkrétní osobu) zodpovědnou za plnění povinnosti napříč celou organizací.
 3. Pravdivě zhodnotíme, jak moc danou povinnost plníme a to zapíšeme s podrobnostmi do assessmentu.
 4. Musíme znát, jaké prostředky (zejména informační systémy a jejich integrace) k plnění povinnosti využíváme a v jakém jsou stavu.
 5. Sepíšeme si, co se musí obecně stát, abychom povinnost řádně plnili a to zcela a vždy.
+
+## KEKOREKTUŘE Jak určit zodpovědného za povinnost
+
+Zcela klíčové je u každé povinnosti určit zodpovědný útvar. To je útvar, který má ve své gesci koordinaci či kontrolu dodržování povinnosti napříč celým úřadem. Kupříkladu u povinností týkajících se dokumentů je samozřejmě takovým útvarem ten, kdo zodpovídá za výkon spisové služby a její kontrolu v celém úřadu. U zodpovědného tedy nejde o útvary, které povinnost fyzicky vykonávají (v případě spisové služby defacto všichni), ale o toho, kdo zodpovídá skutečně za to, že se povinnost plní vždy a všude a v souladu s tím, co taková povinnost znamená.
+
+👉 Příklad: Povinnosti ke spisové službě, ale třeba i povinnost Odesílat dokumenty do datové schránky (stanovená zákonem 300/2008) mají jako zodpovědný útvar právě útvar spisové služby. Zatímco u spisovky je to celkem jasné, týká se to ale také i odesílání dokumentů a práce s datovou schránkou, neboť jde o součást komplexní schopnosti správy a zacházení s dokumenty. 
+
+Při určování odpovědných útvarů můžeme vycházet ze zpracovaného organizačního řádu, resp. z náplní jednotlivých útvarů v . Tím si mimochodem ověříme, jak dobrý máme vlastní organizační řád úřadu.
+
+💡 TIP: I v Mapě povinností jsou jednotlivé povinnosti seskupeny do skupin podle jejich významu. Oproti tomu v úřadu jsou zastoupeny jednotlivé oblasti či domény svými řídícími útvary. Je dobrý nápad si povinnosti seskupit do celků, které pak mají jeden zodpovědný útvar (jako je to výše u povinností ke spisové službě a dokumentům). Platí, že čím méně zodpovědných útvarů bude, tím lépe se s nimi bude garantovi komunikovat.
+
+V praxi se garant bude nejspíš setkávat s odmítáním zodpovědnosti za danou povinnost, a to zejména tam, kde nějaký útvar zodpovídá za celou skupinu povinností či oblast. To ovšem rozhodně nesmí znamenat, že některá povinnost nebude mít svůj zodpovědný útvar. V nejhorším případě je nutno celou věc řešit s příslušným nadřízeným útvarem a zodpovědnému útvaru tuto zodpovědnost prostě přikázat. To, že nějaký útvar Je zodpovědný za plnění povinnosti, v žádném případě neznamená nějakou pro něj novou práci anebo dokonce novou náplň v rámci jeho činnosti. Vyplývá to totiž vždy z existujících pravomocí a povinností daného útvaru. Také funkce zodpovědného útvaru rozhodně nemůže znamenat požadavek na navýšení personálních kapacit a i při komunikaci s garantem a zhodnocování povinnosti jde o klasický výkon práce v rámci dané pracovní náplně. Při komunikaci uvnitř úřadu je nutné také zdůraznit, že zodpovědný útvar nejen že vyplňuje aktuální stav plnění povinnosti, ale také navrhuje nápravné kroky a zodpovídá za související opatření, jejichž cílem je zlepšit plnění příslušné povinnosti. Pouhým uvedením stavu povinnosti do Assessmentu to pro zodpovědný útvar v žádném případě nekončí, ba naopak, jedná se o začátek širšího procesu nápravy protizákonného stavu.
+
+💡 TIP: Existují i tak rozsáhlé a obecné povinnosti (jako je sdílení údajů mezi agendovými systémy), pro které se napříč úřadem bude obtížně hledat jeden zodpovědný útvar. Nesmí se ale určit více útvarů. V takovém případě je ideálním zodpovědným útvarem architektura, neboť má díky rozsahu svých znalostí ke koordinaci a sledování napříč úřadem asi nejblíže.
+
+
+## ✏️ Jak reálně zhodnotit skutečný stav dané povinnosti
+
+✏️ popsat co a jak
+
+✏️ detailně vysvětlit hodnoty stavu a jejich význam
+
