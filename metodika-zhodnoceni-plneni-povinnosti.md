@@ -321,5 +321,29 @@ V praxi se garant bude nejspíš setkávat s odmítáním zodpovědnosti za dano
 
 ✏️ popsat co a jak
 
-✏️ detailně vysvětlit hodnoty stavu a jejich význam
+Plnění povinnosti hodnotí a zapisuje zodpovědný útvar. Při zhodnocení bere v úvahu zejména následující:
 
+1. Má opravdu povědomí o tom, zda a kdy se povinnost plní a jestli se plní zcela a na nic se nezapomnělo?
+1. Pokud se povinnost v úřadu plní, děje se tak skutečně vždy a ve všech případech, kdy je to potřeba?
+1. Jaké důkazy má zodpovědný útvar k dispozici, když si vyhodnotí plnění povinnosti? Je to na základě nějakých vnitřních kontrol a nebo auditní činnosti, nebo je to jen teoretická znalost?
+1. Dá se v budoucnu nějak měřit kvalita plnění povinnosti v souvislosti s principy řízení kvality v úřadu? Pokud ano, pomáhají k tomu dané ICT prostředky a systémy (podle nového principu 20 z IKČR)?
+
+
+
+Pro samotný stav plnění existuje závazný číselník s následujícími hodnotami, ze kterých zodpovědný útvar vybere:
+
+* Číselník Číselník Stav plnění: Číselník hodnot pro vyhodnocení do assessmentu EG povinností ()
+	* Položka Plní zcela: Vyhodnoceno tak, že se plní zcela, ve všech případech a s dodržením všech podrobností. ()
+	* Položka Dosud neplní: Vyhodnoceno tak, že se dosud vůbec neplní, či se plní tak minimálně či tak špatně, že na to nelze brát zřetel. (Takové plnění je třeba zlepšit, vyhodnocuje se při dalším assessmentu.)
+	* Položka Plní částečně: Vyhodnoceno tak, že se sice plní, ale ne zcela správně, nebo ne ve všech případech. Jedná se tedy o částečné plnění, je třeba tento stav zlepšit. (Takové plnění je třeba zlepšit, vyhodnocuje se při dalším assessmentu.)
+	* Položka Není relevantní: Vyhodnoceno jako pro daný úřad nerelevantní povinnost, tedy se úřadu netýká, protože jí má plnit někdo jiný. (Při použití této hodnoty vyhodnocení je třeba velice důkladně zvážit, zda je opravdu pro danou instituci nerelevantní a nebo si takovou nerelevantnost úřad jen mylně vykládá.)
+
+Je důležité správně tuto hodnotu zvolit. U povinností, jež si chceme v celkovém přehledu ponechat a jež se nás netýkají, jednoduše vybereme hodnutu "není relevantní". Ostatní ale správně zhodnotíme. Pouze pokud zodpovědný útvar bezpečně a prokazatelně ví, že se daná povinnost plní opravdu ve všech případech napříč celým úřadem a všemi relevantními činnostmi, pak zadá hodnotu "plní zcela" a tím vyhodnocení u dané povinnosti končí. Je dobré se přesvědčit při další roční aktualizaci, zda tento stav trvá, nicméně nepředpokládá se jeho změna k horšímu a proto se tím dál nebudeme zabývat.
+
+Zbývají dvě hodnoty, které zároveň zakládají další souvislosti a to nutnost napravit stav plnění povinností tak, aby co nejdříve mohl být označen jako "plní zcela". Rozlišujeme pak mezi stavem, kdy neplníme vůbec a možná ani dosud netušíme jak do toho a stavem, kdy nějak plníme.
+
+Pravděpodobně vůbec tou nejčastější hodnotou bude částečné plnění povinností. To označíme vždy, když víme, že se v určitých případech tato povinnost plní a nebo že se plní vždy avšak pouze částečně po věcné stránce. Naším cílem pak bude co nejdříve realizovat taková technická, procesní A věcná opatření, abychom tento stav zlepšili a v ideálním případě co nejrychleji mohli označit tuto povinnost jako zcela a vždy plněnou. Pokud si tedy nejsme stoprocentně jisti, že danou povinnost splníme skutečně ve všech relevantních případech, i tak zvolíme tuto hodnotu. Tato hodnota nevypovídá o míře naplňování konkrétní povinnosti, ale ukazuje základní stav potřebné nutnosti učinit určité opatření, abychom povinnost plnili skutečně vždy.  Nechováme se tedy tak, že i kdybychom povinnost plnili zvětší části, můžeme si dovolit zaokrouhlit plnění nahoru na "plní zcela".
+
+Hodnotu pro neplnění oproti tomu použijeme vždy, když jsme s plněním dané povinnosti ani nezačali. Nezáleží na tom, z jakého důvodu je takový stav. Ať už jde o aktuální technickou nepřipravenost, nebo o důvody způsobené a zapříčiněné kupříkladu jiným orgánem veřejné moci, z našeho pohledu jde o neplnění povinností a tedy velice varovný signál, se kterým se musíme v budoucnu vypořádat. Tato hodnota neříká míru našeho zavinění a ani nerozlišuje  důvody, pro které se povinnost nesplní. Pouze  to konstatuje a je na nás, abychom v rámci stanovení nápravných kroků připravili taková opatření, aby se tento stav urychleně zlepšil.
+
+✴️ POZOR: možná bude mít daný úřad tendenci nadsazovat stav plnění povinností, aby tím nedával najevo, že některé zákonem stanovené a tudíž závazné povinnosti neplní a nebo že na to není připraven. Tomu je třeba se vyvarovat, hlavní motivací a potřebou je skutečně reálně uvést, co si plníme a co si neplníme a hlavně jak dosáhnout toho, abychom si plnili všechno a vždy. Z tohoto pohledu je důležité se na to nedívat jako o sebeudání. Je třeba si uvědomit, že v naprosté většině případů se daná povinnost neplní již delší dobu a to díky nesystémové mu řešení a tudíž se nemůžeme vymlouvat na to, že jsme její neplnění odhalili teprve nyní díky zpracování Assessmentu.
