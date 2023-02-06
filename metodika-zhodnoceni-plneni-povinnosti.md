@@ -184,11 +184,9 @@ Nejdůležitějšími číselníky jsou Subjekty a Skupiny povinností. Podrobno
 Dostáváme se k praktickým návodům, jak si v úřadu udělat správně zhodnocení stavu plnění povinností a jak ho využívat pro zlepšení.
 
 
-## 3.1. 🖋 Co je to Assessment povinností a jak má vypadat?
+## 3.1. KEKOREKTUŘE Co je to Assessment povinností a jak má vypadat?
 
 Cílem v úřadu je kvalitně řídit svoji činnost a zlepšovat se. Jedním ze zásadních zdrojů je právě zhodnocení toho, jak si úřad plní svoje povinnosti. Výsledkem toho je pak Assessment povinnností, což je soubor dat (dokument respektive tabulka respektive databáze) o jednotlivých povinnostech a jejich plnění v daném úřadu a o krocích pro zlepšení jejich plnění.
-
-
 
 V assessmentu se vedou jednotlivé povinnosti a u nich se vedou podrobnosti jednak o povinnosti a jednak o jejím plnění a to v následující struktuře:
 
@@ -212,6 +210,7 @@ V assessmentu se vedou jednotlivé povinnosti a u nich se vedou podrobnosti jedn
 	* Vlastnost Vyhodnocení nápravy: Textový popis, co se konkrétně změnilo pro nápravu předchozích nevyhovujících stavů. 
 	* Vlastnost Aktualizace záznamu: Datum poslední aktualizace vyhodnocení, většinou se kryje s datumem vydání assessmentu, ale může být pochopitelně i průběžně s jednotlivými změnami. 
 
+Stran zodpovědnosti za správnost, první pole se berou ze zdroje, tedy především z Mapy EG povinností a za pole vztahující se ke stavu v úřadu je zodpovědný Zodpovědný útvar.
 
 
 ## 3.2. KEKOREKTUŘE Celkový přehled
@@ -295,7 +294,7 @@ Máme tedy zpracovaný podklad jako assessment, co teď?
 	1. Promítnutí nápravných kroků do Informační koncepce úřadu: Jedním z důvodů, pro který Assessment zpracováváme, je poznat skutečný stav naplňování jednotlivých povinností a především stanovit kroky, díky kterým napravíme plnění povinností tam, kde je neplníme zcela. Tyto nápravné kroky se musí promítnout ve formě záměru a opatření do Informační koncepce úřadu, a to zejména, pokud se týkají informačních systémů a ICT prostředků. Assessment nám slouží jako zdroj, ze kterého je jasné, co se má stát. Slouží tedy jako zdroj potřeb pro informační koncepci. Způsob promítnutí kroků do informační koncepce si dohodne garant se zodpovědným za IK. ()
 
 
-# 4. TKEKOREKTUŘE vorba Roční aktualizace Assessmentu povinností
+# 4. KEKOREKTUŘE Tvorba Roční aktualizace Assessmentu povinností
 
 Pokud máme již zpracovaný assessment, je pak součástí procesů legislativního souladu pochopitelně také zpracování roční aktualizace, i ta je opět součástí vyhodnocení IK v úřadu.
 
