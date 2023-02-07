@@ -144,7 +144,7 @@ Na tomto webu je i související dokumentace a návody, jak s mapou pracovat.
 
 Následuje diagram konceptuálního datového modelu mapy povinností s přehledem vlastností a vazeb:
 
-[Diagram KDM mapy povinností](https://github.com/egdilna/metodika.dekompozice-povinnosti/raw/main/mapapovinnosti-diagramy/mapapovinnosti-datovymodel.png)
+![Diagram KDM mapy povinností](https://github.com/egdilna/metodika.dekompozice-povinnosti/raw/main/mapapovinnosti-diagramy/mapapovinnosti-datovymodel.png)
 
 O každé povinnosti se vedou následující údaje:
 
@@ -243,7 +243,7 @@ Jako každá aktivita ohledně řízení úřadu jde o věc průřezovou a proto
 
 Na obrázku níže je přehled co která role obecně dělá, respektive za co je zodpovědná.
 
-[Přehled za co kdo zodpovídá](https://github.com/egdilna/metodika.dekompozice-povinnosti/raw/main/mapapovinnosti-diagramy/assessmentpovinnostikdoco.png)
+![Přehled za co kdo zodpovídá](https://github.com/egdilna/metodika.dekompozice-povinnosti/raw/main/mapapovinnosti-diagramy/assessmentpovinnostikdoco.png)
 
 ## 3.4. Fáze přípravy
 
