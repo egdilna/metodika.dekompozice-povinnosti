@@ -335,7 +335,7 @@ Nejdůležitější částí assessmentu je právě zhodnocení u jednotlivých 
 
 ## 5.1. KEKOREKTUŘE Obecný postup při zhodnocení plnění povinnosti
 
-1. Určíme si, které povinnosti jsou pro nás relevantní a které nnikoliv.
+1. Určíme si, které povinnosti jsou pro nás relevantní a které nikoliv.
 2. Určíme útvar (a pokud možno konkrétní osobu) zodpovědnou za plnění povinnosti napříč celou organizací.
 3. Pravdivě zhodnotíme, jak moc danou povinnost plníme a to zapíšeme s podrobnostmi do assessmentu.
 4. Musíme znát, jaké prostředky (zejména informační systémy a jejich integrace) k plnění povinnosti využíváme a v jakém jsou stavu.
@@ -379,7 +379,7 @@ Pro samotný stav plnění existuje závazný číselník s následujícími hod
 	* Položka Plní částečně: Vyhodnoceno tak, že se sice plní, ale ne zcela správně, nebo ne ve všech případech. Jedná se tedy o částečné plnění, je třeba tento stav zlepšit. (Takové plnění je třeba zlepšit, vyhodnocuje se při dalším assessmentu.)
 	* Položka Není relevantní: Vyhodnoceno jako pro daný úřad nerelevantní povinnost, tedy se úřadu netýká, protože jí má plnit někdo jiný. (Při použití této hodnoty vyhodnocení je třeba velice důkladně zvážit, zda je opravdu pro danou instituci nerelevantní a nebo si takovou nerelevantnost úřad jen mylně vykládá.)
 
-Je důležité správně tuto hodnotu zvolit. U povinností, jež si chceme v celkovém přehledu ponechat a jež se nás netýkají, jednoduše vybereme hodnutu "není relevantní". Ostatní ale správně zhodnotíme. Pouze pokud zodpovědný útvar bezpečně a prokazatelně ví, že se daná povinnost plní opravdu ve všech případech napříč celým úřadem a všemi relevantními činnostmi, pak zadá hodnotu "plní zcela" a tím vyhodnocení u dané povinnosti končí. Je dobré se přesvědčit při další roční aktualizaci, zda tento stav trvá, nicméně nepředpokládá se jeho změna k horšímu a proto se tím dál nebudeme zabývat.
+Je důležité správně tuto hodnotu zvolit. U povinností, jež si chceme v celkovém přehledu ponechat a jež se nás netýkají, jednoduše vybereme hodnotu "není relevantní". Ostatní ale správně zhodnotíme. Pouze pokud zodpovědný útvar bezpečně a prokazatelně ví, že se daná povinnost plní opravdu ve všech případech napříč celým úřadem a všemi relevantními činnostmi, pak zadá hodnotu "plní zcela" a tím vyhodnocení u dané povinnosti končí. Je dobré se přesvědčit při další roční aktualizaci, zda tento stav trvá, nicméně nepředpokládá se jeho změna k horšímu a proto se tím dál nebudeme zabývat.
 
 Zbývají dvě hodnoty, které zároveň zakládají další souvislosti a to nutnost napravit stav plnění povinností tak, aby co nejdříve mohl být označen jako "plní zcela". Rozlišujeme pak mezi stavem, kdy neplníme vůbec a možná ani dosud netušíme jak do toho a stavem, kdy nějak plníme.
 
