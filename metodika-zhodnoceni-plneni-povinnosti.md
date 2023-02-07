@@ -217,7 +217,7 @@ Stran zodpovědnosti za správnost, první pole se berou ze zdroje, tedy předev
 
 Na následujícím přehledovém diagramu je vše pěkně pohromadě. Diagram může na první pohled být složitý, nicméně postupně si v dalších kapitolách vše podrobně projdeme.
 
-[big picture Assessment povinností procesy](https://github.com/egdilna/metodika.dekompozice-povinnosti/raw/main/mapapovinnosti-diagramy/assessmentpovinnostibigpicture.png)
+![big picture Assessment povinností procesy](https://github.com/egdilna/metodika.dekompozice-povinnosti/raw/main/mapapovinnosti-diagramy/assessmentpovinnostibigpicture.png)
 
 Stručně řečeno jde o sled činností, z nichž nejdůležitější jsou: Určení Garanta Assessmentu povinností, Koordinovat naplnění Assessmentu povinností, Výběr nástroje a způsobu zpracování Assessmentu, Výběr relevantních povinností, Určení zodpovědného útvaru, Vyhodnocení plnění povinnosti, Přijmout technicko-organizační opatření pro splnění kroků narovnání povinností a Promítnutí nápravných kroků do Informační koncepce úřadu
 
