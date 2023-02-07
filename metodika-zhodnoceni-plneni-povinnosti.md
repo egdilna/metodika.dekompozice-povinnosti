@@ -6,9 +6,9 @@ subtitle: Metodický dokument pro OVM zpracovávající si přehled svých EG ob
 
 
 
-# 1. KEKOREKTUŘE Úvod
+# 1. POKOREKTUŘE Úvod
 
-Toto je metodický a návodný dokument pro všechny úřady, které chtějí využít zhodnocení plnění EG povinností, či mají takovou povinnost v rámci přípravy a rozvoje své informační koncepce.
+Toto je metodický a návodný dokument pro všechny úřady, které chtějí využít zhodnocení plnění EG povinností či mají takovou povinnost v rámci přípravy a rozvoje své informační koncepce.
 
 ## 1.1. Autoři a licence dokumentu
 
@@ -31,29 +31,29 @@ https://egdilna.cz/metodiky
 
 
 
-## 1.2. KEKOREKTUŘE Účel a použití metodiky
+## 1.2. POKOREKTUŘE Účel a použití metodiky
 
-Tato metodika slouží pro poznání a návody, jak sledovat a zhodnotit plnění svých povinností k eGovernmentu. Díky tomuto dokumentu a zde uvedeným postupům úřad zvládne jednu z částí řízení ICT a služeb, a tou je zhodnocení plnění EG povinností (assessment povinností), a také pochopí jeho přínosy a bude schopen získané znalosti použít pro zvýšení efektivity úřadu.
+Metodika slouží pro poznání a návody, jak sledovat a zhodnotit plnění svých povinností k eGovernmentu. Díky tomuto dokumentu a zde uvedeným postupům úřad zvládne jednu z částí řízení ICT a služeb, tou je zhodnocení plnění EG povinností (Assessment EG povinností), také pochopí jeho přínosy a bude schopen získané znalosti použít pro zvýšení efektivity úřadu.
 
-Metodika assessmentu eGovernment (EG) povinností, která se vám dostává do ruky, provede váš úřad kompletním procesem zhodnocení plnění EG povinností od určení Garanta assessmentu povinností přes identifikaci povinností vztahujících se na váš úřad, jejich zpracováním až po zhodnocení jejich plnění a přijetí případných nápravných opatření vedoucích k jejich plnění.
+Metodika Assessmentu eGovernment (EG) povinností, která se vám dostává do rukou, provede váš úřad kompletním procesem zhodnocení plnění EG povinností, a to od určení Garanta Assessmentu EG povinností, přes identifikaci povinností vztahujících se na váš úřad jejich zpracováním, až po zhodnocení jejich plnění a přijetí případných nápravných opatření vedoucích k jejich plnění.
 
-Příjemcem metodiky je vedení úřadu, architekti (byznys architekti, architekti informačních systémů, IT a ICT architekti atp.), primárně je však určena Garantovi assessmentu povinností, jehož role musí být úřadem obsazena v samém začátku celého procesu. Nejblíže je role Garanta právě architektům a není‑li v úřadu doposud obsazena, je vhodné do ní určit/jmenovat zkušeného architekta znalého celkové architektury úřadu.
+Příjemcem metodiky je vedení úřadu, architekti (byznys architekti, architekti informačních systémů, IT a ICT architekti atp.). Primárně je však určena Garantovi Assessmentu EG povinností, jehož role musí být úřadem obsazena v samém začátku celého procesu. Nejblíže je role Garanta právě architektům. Není‑li v úřadu doposud role obsazena, je vhodné do ní určit/jmenovat zkušeného architekta znalého celkové architektury úřadu.
 
-Metodika je rozdělena do čtyř hlavních částí, a to „1. Příprava na assessment EG povinností“, „2. Prvotní zhodnocení plnění EG povinností“ a „3. Roční aktualizace plnění EG povinností“, „4. xxxxxxxxxxxx“.
+Metodika je rozdělena do čtyř hlavních částí, a to „1. Příprava na Assessment EG povinností“, „2. Prvotní zhodnocení plnění EG povinností“ a „3. Roční aktualizace plnění EG povinností“, „4. xxxxxxxxxxxx“.
 
-* V první přípravné části jsou vysvětleny základní pojmy, zejména pak popis role Garanta assessmentu povinností, vysvětlení, co je to „povinnost“, „zhodnocení plnění povinností“, kde je a jak se používá Mapa EG povinností a stručně je popsána i „Znalostní architektura“.
-* V druhé a třetí části jsou již praktické postupy pro identifikaci relevantních EG povinností vztahujících se na úřady, postupy, jak tyto povinnosti zpracovat a jak hodnotit jejich plnění. Obě tyto části jsou doplněny o procesní diagramy provázející Garanta assessmentu i ostatní aktéry krok po kroku celým procesem.
-* Ve čtvrté části se podrobněji věnujeme faktickému určení skutečného stavu jako základu pro vyhodnocení plnění jednotlivé povinnosti
+* V první přípravné části jsou vysvětleny základní pojmy, zejména pak popis role Garanta assessmentu EG povinností, vysvětlení, co je to „povinnost“, „zhodnocení plnění povinností“, kde je a jak se používá Mapa EG povinností a stručně je popsána i „Znalostní architektura“.
+* V druhé a třetí části jsou již praktické postupy pro identifikaci relevantních EG povinností vztahující se na úřady. Postupy, jak tyto povinnosti zpracovat a jak hodnotit jejich plnění. Obě tyto části jsou doplněny o procesní diagramy provázející Garanta Assessmentu EG povinností i ostatní aktéry krok po kroku celým procesem.
+* Ve čtvrté části se podrobněji věnujeme faktickému určení skutečného stavu jako základu pro vyhodnocení plnění jednotlivé povinnosti.
 
 ## 1.3. ☑️ Historie změn
 
 Toto je první verze metodiky.
 
-## 1.4. KEKOREKTUŘE Shrnutí metodiky
+## 1.4. POKOREKTUŘE Shrnutí metodiky
 
-Dokument je rozdělen do tří na sebe vzájemně navazujících částí. První teoretická část [Úřad a Povinnosti] popisuje celý rámec povinností a jejich místo ve znalostech a architektuře úřadu a seznamuje s Mapou EG povinností a jejím využitím. Druhá praktická část [Tvorba zhodnocení plnění povinností (assessment povinností)] popisuje podrobně, jak si v úřadu zpracovat assessment povinností jako zdroj znalostí o stavu plnění a dodržování každé obecné povinnosti a jak poznatky z tohoto assessmentu dále využít v úřadu a jako základ pro projekty rozvoje ICT. Třetí část popisuje podrobněji, jak v assessmentu skutečně zhodnotit jednotlivou povinnost a podle čeho postupovat při posuzování míry splnění a stanovení nápravných kroků. 
+Dokument je rozdělen do tří na sebe vzájemně navazujících částí. První teoretická část [Úřad a Povinnosti] popisuje celý rámec povinností a jejich místo ve znalostech a architektuře úřadu a seznamuje s Mapou EG povinností a jejím využitím. Druhá praktická část [Tvorba zhodnocení plnění povinností (Assessment EG povinností)] popisuje podrobně, jak si v úřadu zpracovat Assessment EG povinností jako zdroj znalostí o stavu plnění a dodržování každé obecné povinnosti a jak poznatky z tohoto Assessmentu dále využít v úřadu a jako základ pro projekty rozvoje ICT. Třetí část popisuje podrobněji, jak v Assessmentu skutečně zhodnotit jednotlivou povinnost a podle čeho postupovat při posuzování míry splnění a stanovení nápravných kroků. 
 
-Dokument mimo obsahu má i odkazy na externí zdroje, které budou dále v budoucích verzích udržovány funkční. Společně s těmito odkazy a dalšími informacemi z oblasti koncepčního řízení ICT v úřadu je to ucelenou metodikou zahrnující vše, co bude úřad v oblasti assessmentu povinností potřebovat.
+Dokument, mimo obsahu, má i odkazy na externí zdroje, které budou dále v následných verzích udržovány funkční. Společně s těmito odkazy a dalšími informacemi z oblasti koncepčního řízení ICT v úřadu je toto ucelenou metodikou zahrnující vše, co bude úřad v oblasti Assessmentu EG povinností potřebovat.
 
 ## 1.5. ☑️ Některé nové pojmy a jejich význam
 
@@ -62,93 +62,93 @@ Pro účely této metodiky do slovníku přidáváme následující pojmy:
 
 
 
-* Zhodnocení plnění povinností (Assessment povinností) je Přehled a vyhodnocení stavu plnění jednotlivých obecných povinností v úřadu. Zpracovává se pro všechny relevantní povinnosti a obsahuje stav plnění v hodnotách dle závazného číselníku a také základní kroky pro nápravu. Je součástí znalostí architektury, řízení kvality a především Informační koncepce úřadu a slouží jako jeden ze zdrojů poznání pro potřeby rozvoje a úprav systémů a procesů. / definuje  metodika ke zhodnocení plnění povinností využívají eGovernment, veřejná správa
+* Zhodnocení plnění povinností (Assessment EG povinností) je Přehled a vyhodnocení stavu plnění jednotlivých obecných povinností v úřadu. Zpracovává se pro všechny relevantní povinnosti a obsahuje stav plnění v hodnotách dle závazného číselníku a také základní kroky pro nápravu. Je součástí znalostí architektury, řízení kvality a především Informační koncepce úřadu a slouží jako jeden ze zdrojů poznání pro potřeby rozvoje a úprav systémů a procesů. / definuje  metodika ke zhodnocení plnění povinností využívají eGovernment, veřejná správa
 * Povinnost je Konkrétní povinnost definovaná legislativním rámcem určující závazné jednání či postup, které je nutno za splnění zákonných podmínek vykonat. / definuje  metodika ke zhodnocení plnění povinností využívají IT právo, eGovernment, veřejná správa
 * Subjekt povinnosti (subjekt) je Ten, kdo má podle zákonného určení danou povinnost plnit. Jde tedy zejména o úřad, který je subjektem pro všechny jeho povinnosti. Tento termín je třeba nezaměňovat se subjektem povinnosti v rámci konceptuálních modelů agend, kdy subjektem povinnosti může být i klient. V Mapě EG povinností se subjekty klasifikují po jednotlivých skupinách subjektů. / definuje  metodika ke zhodnocení plnění povinností využívají IT právo, eGovernment, veřejná správa
-* Garant assessmentu povinností (garant) je Role v úřadu, do které je určena konkrétní fyzická osoba. Koordinuje sestavení, vyplnění a aktualizování Assessmentu povinností a zprostředkovává a koordinuje spolupráci a komunikaci mezi jednotlivými zodpovědnými útvary. Tento garant také zodpovídá za zpracování assessmentu a udržuje si přehled o potřebných krocích v rámci architektury i v rámci realizace nápravných opatření . / definuje  metodika ke zhodnocení plnění povinností využívají oblast architektury eGovernmentu, veřejná správa
-* Zodpovědný za plnění povinnosti (zodpovědný) je Určená role v úřadu, většinou shodná s rolí věcného gestora za danou oblast. Pro potřeby zpracovávání Assessmentu povinností jde o útvar nebo dokonce konkrétního zaměstnance, který v celé organizaci koordinuje a kontroluje dodržování dané povinnosti napříč všemi agendami a činnostmi a zodpovídá tak za její plnění. Také je odborně zodpovědný za správné vyhodnocení plnění a za nápravné kroky. / definuje metodika ke zhodnocení plnění povinností využívají eGovernment, veřejná správa
+* Garant assessmentu povinností (garant) je Role v úřadu, do které je určena konkrétní fyzická osoba. Koordinuje sestavení, vyplnění a aktualizování Assessmentu EG povinností a zprostředkovává a koordinuje spolupráci a komunikaci mezi jednotlivými zodpovědnými útvary. Tento garant také zodpovídá za zpracování assessmentu a udržuje si přehled o potřebných krocích v rámci architektury i v rámci realizace nápravných opatření . / definuje  metodika ke zhodnocení plnění povinností využívají oblast architektury eGovernmentu, veřejná správa
+* Zodpovědný za plnění povinnosti (zodpovědný) je Určená role v úřadu, většinou shodná s rolí věcného gestora za danou oblast. Pro potřeby zpracovávání Assessmentu EG povinností jde o útvar nebo dokonce konkrétního zaměstnance, který v celé organizaci koordinuje a kontroluje dodržování dané povinnosti napříč všemi agendami a činnostmi a zodpovídá tak za její plnění. Také je odborně zodpovědný za správné vyhodnocení plnění a za nápravné kroky. / definuje metodika ke zhodnocení plnění povinností využívají eGovernment, veřejná správa
 
 S těmito pojmy metodika běžně pracuje a hovoříme-li tedy kupříkladu o "zodpovědném" v rámci assessmentu, máme tím na mysli právě zodpovědný útvar.
 
 # 2. Úřad a Povinnosti
 
-## 2.1. KEKOREKTUŘE Co jsou to povinnosti a jak to zakotvit v řízení a architektuře úřadu
+## 2.1. POKOREKTUŘE Co jsou to povinnosti a jak to zakotvit v řízení a architektuře úřadu?
 
 
-### 2.1.1. KEKOREKTUŘE Povinnost
+### 2.1.1. POKOREKTUŘE Povinnost
 
-Úřad obecně funguje podle určitých mantinelů. Na obecné úrovni jsou těmito mantinely legislativa a agendy, v nichž působí. Na detailnější úrovni se jedná o rámec povinností, které úřad plní. Takže se dá vlastně říct, že úřad funguje podle povinností. Povinnosti musíme ale umět brát ve dvou rovinách:
+Úřad obecně funguje podle určitých mantinelů. Na obecné úrovni jsou těmito mantinely legislativa a agendy, v nichž působí. Na detailnější úrovni se jedná o rámec povinností, které úřad plní. Takže se dá vlastně říci, že úřad funguje podle povinností. Povinnosti musíme ale umět vnímat ve dvou rovinách:
 
 1. Povinnost jako něco, co definuje právní předpis a my to musíme vždy naplnit a neporušovat tento základní princip
 2. Povinnost jako něco, co umíme dobře uchopit a popsat a podle čeho jednáme ve své práci.
 
 Pokud bychom k povinnosti přistupovali jen podle prvního bodu a budeme k tomu přistupovat jako k nutnému zlu, sice si uděláme rámec pro splnění zákonů, ovšem další pozitivní přínosy poznání plnění povinností z toho mít nebudeme. Pokud ale budeme k povinnosti přistupovat i podle druhého bodu jako k poznání aktuálního stavu, bude to pro nás znamenat cenný zdroj. Je tedy vhodné se na povinnosti a jejich plnění dívat pozitivně. Přistupujme k tomu tedy jako k příležitosti.
 
-Co je to tedy ta povinnost? Lidsky řečeno, je to jedna konkrétní věc, kterou podle zákona musíme dělat. Definuje jí nějaký zákon a dokonce i konkrétní ustanovení (může jich být i víc) a pro nás to znamená nějakou práci v rámci našich procesů. Povinnost může přitom být zcela konkrétní a jedinečná, jako třeba "Sdělit konkrétně někomu něco" (sdílení jednoho údaje jinému OVM či klientovi), ale většinou jde o povinnost obecnou, jako "zaslat osvědčení o digitálním úkonu", nebo ještě obecnější "poskytovat naše agendové údaje". Čím obecnější povinnost je, tím se hůř chápe přes celý úřad, na druhou stránku ale každou povinnost můžeme zařadit do nějaké oblasti, kterou má v našem úřadu někdo nestarosti.
+Co je to tedy ta povinnost? Lidsky řečeno, je to jedna konkrétní věc, kterou podle zákona musíme dělat. Definuje ji nějaký zákon, a dokonce i konkrétní ustanovení (může jich být i více). Pro nás to znamená nějakou práci v rámci našich procesů. Povinnost může přitom být zcela konkrétní a jedinečná, jako třeba "Sdělit konkrétně někomu něco" (sdílení jednoho údaje jinému OVM či klientovi), ale většinou jde o povinnost obecnou, jako "zaslat osvědčení o digitálním úkonu", nebo ještě obecnější "poskytovat naše agendové údaje". Čím obecnější povinnost je, tím se hůře chápe přes celý úřad. Na druhou stranu, každou povinnost můžeme zařadit do nějaké oblasti, kterou má v našem úřadu někdo nastarost.
 
 
-## 2.2. KEKOREKTUŘE Povinnost a architektura úřadu
+## 2.2. POKOREKTUŘE Povinnost a architektura úřadu
 
 Povinnost tedy je něco, co děláme a víme, jestli a jak moc to děláme. Přestože by se tedy mohlo zdát, že povinnost je pro nás motivací, z pohledu architektury jde o byznysový prvek svázaný s daným předpisem a realizovaný v našich procesech. Z pohledu architektury je tedy důležité následující:
 
 * Právní předpis určuje povinnost.
 * Útvar zodpovídá za povinnost.
-* Garant assessmentu zodpovídá za Assessment povinností
-* Assessment povinností je assessmentem
+* Garant assessmentu zodpovídá za Assessment EG povinností
+* Assessment EG povinností je assessmentem
 
 Architekti si asi pokládají následující otázky:
 
-1. Je vhodné do architektury modelovat povinnosti? Pokud jsou pro nás důležité a považujeme je za rozhodující zdroje poznání, tak ano. Pokud si udržujeme přehled povinností a stav jejich plnění v samostatném Assessmentu povinností a víme, jak je navázán na architekturu, pak jednotlivé povinnosti modelovat nemusíme.
-1. Pokud chceme modelovat povinnosti v architektuře, tak jak? Povinnost je byznys objektem, má vždy povinně vazbu z právního předpisu jako kontraktu asociací na objekt povinnosti. Pokud je povinnost součástí schopnosti či procesu a je to pro nás důležité, zmodelujeme i takovou vazbu.
-1. Co dodržovat při modelování povinností? Povinnosti si nevymýšlíme, ale využijeme připravené datové sady z Mapy EG povinností. Zde si vezmeme Kód povinnosti jako ID architektonického prvku, Název jako název prvku, Popis jako popis prvku a jako stereotyp použijeme "Povinnost" s využitím konceptu "BusinessObject" a vazbu na předpis podle názvu předpisu prvku Contract, k tomu využijeme vždy příslušné prvky metamodelu.
-1. Zásadně neděláme zástupné prvky typu "povinnosti k datovkám", apod. Pokud chceme v architektuře udržovat a modelovat povinnosti, tak to děláme pro jednotlivé povinnosti.
+1. Je vhodné do architektury modelovat povinnosti? Pokud jsou pro nás důležité a považujeme je za rozhodující zdroje poznání, tak ano. Pokud si udržujeme přehled povinností a stav jejich plnění v samostatném Assessmentu EG povinností a víme, jak je navázán na architekturu, pak jednotlivé povinnosti modelovat nemusíme.
+2. Pokud chceme modelovat povinnosti v architektuře, tak jak? Povinnost je byznys objektem, má vždy povinně vazbu z právního předpisu jako kontraktu asociací na objekt povinnosti. Pokud je povinnost součástí schopnosti či procesu a je to pro nás důležité, zmodelujeme i takovou vazbu.
+3. Co dodržovat při modelování povinností? Povinnosti si nevymýšlíme, ale využijeme připravené datové sady z Mapy EG povinností. Zde si vezmeme Kód povinnosti jako ID architektonického prvku, Název jako název prvku, Popis jako popis prvku a jako stereotyp použijeme "Povinnost" s využitím konceptu "BusinessObject" a vazbu na předpis podle názvu předpisu prvku Contract, k tomu využijeme vždy příslušné prvky metamodelu.
+4. Zásadně neděláme zástupné prvky typu "povinnosti k datovkám" apod. Pokud chceme v architektuře udržovat a modelovat povinnosti, tak to děláme pro jednotlivé povinnosti.
 
 Toto zakreslení obsahuje také třeba [Soubor Metamodel Jak se co kreslí pro znalostní architekturu ve formátu Archi ArchiMate](https://github.com/egdilna/sablony/raw/main/architektonicke_modely/metamodel_znalostni_architektury_jaksecokresli.archimate)
 
 
-### 2.2.1. KEKOREKTUŘE Povinnosti jako zdroj informací pro řízení a zlepšování
+### 2.2.1. POKOREKTUŘE Povinnosti jako zdroj informací pro řízení a zlepšování
 
-Povinnosti a zejména jejich plnění jsou důležité i pro ostatní oblasti úřadu, včetně řízení a rozhodování:
+Povinnosti, zejména jejich plnění, jsou důležité i pro ostatní oblasti úřadu, a to včetně řízení a rozhodování:
 
-* Pomáhají ve skutečném poznání a pochopení, co má úřad (nejen) v oblasti eGovernmentu dělat a jsou dostatečně konkrétní a uchopitelné, narozdíl od obecných tezí, že úřad "musí dodržovat zákony". 
-* jsou cenným zdrojem pro soubor řízení kvality v úřadu (součástí je plnění zákoných povinností) a průběhu jejího zlepšování
-* Jsou zdrojem pro potřebné změny a to na procesní i technické úrovni v celém úřadě
-* V jednotlivých oblastech a agendách jsou základní informací o tom, co vše se musí udělat v rámci digitalizace pro danou agendu na obecné EG úrovni
+* Pomáhají ve skutečném poznání a pochopení, co má úřad (nejen) v oblasti eGovernmentu dělat a jsou dostatečně konkrétní a uchopitelné, narozdíl od obecných tezí, že úřad "musí dodržovat zákony".
+* Jsou cenným zdrojem pro soubor řízení kvality v úřadu (součástí je plnění zákonných povinností) a průběhu jejího zlepšování.
+* Jsou zdrojem pro potřebné změny, a to na procesní i technické úrovni v celém úřadu.
+* V jednotlivých oblastech a agendách jsou základní informací o tom, co vše se musí udělat v rámci digitalizace pro danou agendu na obecné EG úrovni.
 
-## 2.3. KEKOREKTUŘE Dva druhy povinností
+## 2.3. POKOREKTUŘE Dva druhy povinností
 
-Povinnosti jako takové se defacto dají rozdělit do dvou forem/kategorií.
+Povinnosti jako takové se defacto dají rozdělit do dvou forem/kategorií:
 
 1. Povinnosti agendové: Jsou zaznamenány jako agendové činnosti v rámci ohlášení agendy v Registru práv a povinností. Pocházejí jako zcela konkrétní a víceméně jednoúčelové a jednoprocesní povinnosti z daného ustanovení agendového zákona.
-1. Obecné povinnosti: Jde o obecné vždy povinně dodržované povinnosti platné nehledě na agendu, v níž se vykonávají činnosti. Takové povinnosti jsou pro zmapování složitěji, ale musí se uplatňovat vždy na úrovni celého úřadu. Tyto povinnosti jsou z pohledu digitalizace vedeny a mapovány v rámci Mapy EG povinností.
+2. Obecné povinnosti: Jde o obecné, a to vždy povinně dodržované povinnosti, jež jsou platné nehledě na agendu, v níž se vykonávají činnosti. Takové povinnosti jsou pro zmapování složitější, ale musí se uplatňovat vždy na úrovni celého úřadu. Tyto povinnosti jsou z pohledu digitalizace vedeny a mapovány v rámci Mapy EG povinností.
 
-Tato metodika se dále věnuje pouze druhé skupině povinností, neboť co se týče plnění agendových služeb a činností, k tomu existují jiné metodiky a navíc se postup plnění liší agendu od agendy. My se budeme věnovat jen těm obecným a z toho si vybereme pro účely zmapování stavu úřadu ty povinnosti, které se týkají digitalizace a tedy tzv. EG zákonů.
+Tato metodika se dále věnuje pouze druhé skupině povinností, neboť, co se týče plnění agendových služeb a činností, k tomu existují jiné metodiky, navíc se postup plnění liší agendu od agendy. My se budeme věnovat jen obecným povinnostem a z nich si vybereme pro účely zmapování stavu úřadu takové, které se týkají digitalizace, tedy tzv. EG zákonů.
 
 
 ## 2.4. KEKOREKTUŘE Mapa EG povinností a její použití
 
-Nejen pro soubor povinností úřadu a pro jejich poznání se má využívat Mapa povinností.
+Nejen pro soubor povinností úřadu a pro jejich poznání se má využívat Mapa EG povinností.
 
-### 2.4.1. KEKOREKTUŘE Co je to Mapa povinností
+### 2.4.1. KEKOREKTUŘE Co je to Mapa EG povinností
 
-Mapa povinností je nástroj, kde jsou evidovány veškeré obecné EG povinnosti. Slouží tedy mimo jiné i jako zdroj povinností pro jejich zhodnocení v úřadu. Mapa povinností je zveřejněna na internetu a to jak formou webové aplikace umožňující procházení a hledání povinností, tak ve formě datové sady otevřených dat.
+Mapa EG povinností je nástroj, kde jsou evidovány veškeré obecné EG povinnosti. Slouží tedy mimo jiné i jako zdroj povinností pro jejich zhodnocení v úřadu. Mapa EG povinností je zveřejněna na internetu, a to jak formou webové aplikace umožňující procházení a hledání povinností, tak ve formě datové sady otevřených dat.
 
-Vše o mapě včetně přístupu k jejím nástrojům najdete na adrese
+Vše o Mapě EG povinností, a to včetně přístupu k jejím nástrojům, najdete na adrese:
 
 Https://egdilna.cz/mapapovinnosti 
 
-Na tomto webu je i související dokumentace a návody, jak s mapou pracovat.
+Na tomto webu je i související dokumentace a návody, jak s Mapou EG povinností pracovat.
 
 
-### 2.4.2. KEKOREKTUŘE Co se v mapě eviduje a jak
+### 2.4.2. POKOREKTUŘE Co se v Mapě EG povinností eviduje a jak?
 
-Následuje diagram konceptuálního datového modelu mapy povinností s přehledem vlastností a vazeb:
+Následuje diagram konceptuálního datového modelu Mapy EG povinností s přehledem vlastností a vazeb:
 
 ![Diagram KDM mapy povinností](https://github.com/egdilna/metodika.dekompozice-povinnosti/raw/main/mapapovinnosti-diagramy/mapapovinnosti-datovymodel.png)
 
 O každé povinnosti se vedou následující údaje:
 
-* Vlastnost Kód: Jednoznačný identifikátor povinnosti ve složení Kód, skládá se z označení P a čísla kódu povinnosti. Užívá se jako jednoznačný identifikátor z mapy EG povinností. ()
+* Vlastnost Kód: Jednoznačný identifikátor povinnosti ve složení Kód, skládá se z označení P a čísla kódu povinnosti. Užívá se jako jednoznačný identifikátor z Mapy EG povinností. ()
 * Vlastnost Název povinnosti: Popisný název povinnosti, který se používá jako název v textech. Musí být stručný, ale výstižný, je pochopitelně jednoznačný a jedinečný. ()
 * Vlastnost Popis povinnosti: Textový popis povinnosti, většinou založený na znění konkrétních ustanovení právních předpisů. ()
 * Vlastnost Určuje: Konkrétní ustanovení právních předpisů určující danou povinnost. ()
@@ -158,11 +158,11 @@ O každé povinnosti se vedou následující údaje:
 * Vlastnost Předpisy: Seznam právních předpisů, jichž se povinnost týká, respektive, které ji definují. Využije se kupříkladu pro přehledné filtrování či pro vazby v RPP. ()
 * Vlastnost Verze: Číslo verze záznamu ()
 * Vlastnost Aktualizace: Datum poslední verze ()
-* Vlastnost Poznámky k verzi: Poznámky zadavatele a editora k povinnosti ()
+* Vlastnost Poznámky k verzi: Poznámky zadavatele a editora k povinnosti. ()
 
-Nejdůležitějšími číselníky jsou Subjekty a Skupiny povinností. Podrobnosti těchto číselníků jsou přehledně v konceptuálním datovém modelu mapy, který je na webu mapy. Podle těchto hodnot se dá v Mapě povinností skvěle filtrovat a hledat seznam relevantních povinností, což budeme potřebovat při sestavování assessmentu v úřadu.
+Nejdůležitějšími číselníky jsou Subjekty a Skupiny povinností. Podrobnosti těchto číselníků jsou přehledně uvedeny v konceptuálním datovém modelu Mapy EG povinností, který je na webu Mapy EG povinností. Podle těchto hodnot se dá v Mapě EG povinností skvěle filtrovat a hledat seznam relevantních povinností, což budeme potřebovat při sestavování Assessmentu EG povinností v úřadu.
 
-👉 Příklad: Zde je ukázka jedné povinnosti týkající se zpřístupnění údajů v informačních systémech, jak je zapsána v Mapě povinností:
+👉 Příklad: Zde je ukázka jedné povinnosti týkající se zpřístupnění údajů v informačních systémech, jak je zapsána v Mapě EG povinností:
 
 * Kód: P237
 * Název: Poskytnout subjektu elektronický výpis z ISVS a údaje z ISVS o subjektu
@@ -184,55 +184,62 @@ Nejdůležitějšími číselníky jsou Subjekty a Skupiny povinností. Podrobno
 Dostáváme se k praktickým návodům, jak si v úřadu udělat správně zhodnocení stavu plnění povinností a jak ho využívat pro zlepšení.
 
 
-## 3.1. KEKOREKTUŘE Co je to Assessment povinností a jak má vypadat?
+## 3.1. POKOREKTUŘE Co je to Assessment EG povinností a jak má vypadat?
 
-Cílem v úřadu je kvalitně řídit svoji činnost a zlepšovat se. Jedním ze zásadních zdrojů je právě zhodnocení toho, jak si úřad plní svoje povinnosti. Výsledkem toho je pak Assessment povinnností, což je soubor dat (dokument respektive tabulka respektive databáze) o jednotlivých povinnostech a jejich plnění v daném úřadu a o krocích pro zlepšení jejich plnění.
+Cílem v úřadu je kvalitně řídit svoji činnost a zlepšovat se. Jedním ze zásadních zdrojů je právě zhodnocení toho, jak si úřad plní svoje povinnosti. Výsledkem toho je pak Assessment EG povinností, což je soubor dat (dokument, respektive, tabulka, respektive, databáze) o jednotlivých povinnostech a jejich plnění v daném úřadu a o krocích pro zlepšení jejich plnění.
 
-V assessmentu se vedou jednotlivé povinnosti a u nich se vedou podrobnosti jednak o povinnosti a jednak o jejím plnění a to v následující struktuře:
+V Assessmentu EG povinností se vedou jednotlivé povinnosti a u nich se vedou podrobnosti jednak o povinnosti a jednak o jejím plnění, a to v následující struktuře:
 
 ![Obecný datový model assessmentu povinností, Zdroj: Metodiky k EG povinnostem and EGdílna](https://github.com/egdilna/metodika.dekompozice-povinnosti/raw/main/mapapovinnosti-diagramy/assessment-povinnosti-datovy-model.png)
 
 
-* Věc Plnění povinnosti: Údaje o vyhodnocení plnění jedné povinnosti. Obsahují z Mapy povinností údaje o samotné povinnosti, ale především stav plnění a potřebné informace k případné nápravě. 
-	* Vlastnost Kód: Jednoznačný identifikátor povinnosti ve složení Kód, skládá se z označení P a čísla kódu povinnosti. Užívá se jako jednoznačný identifikátor z mapy EG povinností. (přebírá se z Mapy povinností)
-	* Vlastnost Název povinnosti: Popisný název povinnosti, který se používá jako název v textech. Musí být stručný, ale výstižný, je pochopitelně jednoznačný a jedinečný. (přebírá se z Mapy povinností)
-	* Vlastnost Popis povinnosti: Textový popis povinnosti, většinou založený na znění konkrétních ustanovení právních předpisů. (přebírá se z Mapy povinností)
-	* Vlastnost Určuje: Konkrétní ustanovení právních předpisů určující danou povinnost. (přebírá se z Mapy povinností)
-	* Vlastnost Skupina: Jedna či více skupin povinností podle věcné oblasti. (přebírá se z Mapy povinností)
-	* Vlastnost Subjekty: Seznam skupin subjektů, jež mají danou povinnost naplňovat. Obsahuje jednu či více hodnot z číselníku. Vhodné pro třídění a formátování. (přebírá se z Mapy povinností)
-	* Vlastnost Předpisy: Seznam právních předpisů, jichž se povinnost týká, respektive, které ji definují. Využije se kupříkladu pro přehledné filtrování či pro vazby v RPP. (přebírá se z Mapy povinností)
+* Věc Plnění povinnosti: Údaje o vyhodnocení plnění jedné povinnosti. Obsahují údaje o samotné povinnosti z Mapy EG povinností, ale především stav plnění a potřebné informace k případné nápravě.
+	* Vlastnost Kód: Jednoznačný identifikátor povinnosti ve složení Kód, skládá se z označení P a čísla kódu povinnosti. Užívá se jako jednoznačný identifikátor z Mapy EG povinností. (přebírá se z Mapy EG povinností)
+	* Vlastnost Název povinnosti: Popisný název povinnosti, který se používá jako název v textech. Musí být stručný, ale výstižný, je pochopitelně jednoznačný a jedinečný. (přebírá se z Mapy EG povinností)
+	* Vlastnost Popis povinnosti: Textový popis povinnosti, většinou založený na znění konkrétních ustanovení právních předpisů. (přebírá se z Mapy EG povinností)
+	* Vlastnost Určuje: Konkrétní ustanovení právních předpisů určující danou povinnost. (přebírá se z Mapy EG povinností)
+	* Vlastnost Skupina: Jedna či více skupin povinností podle věcné oblasti. (přebírá se z Mapy EG povinností)
+	* Vlastnost Subjekty: Seznam skupin subjektů, jež mají danou povinnost naplňovat. Obsahuje jednu či více hodnot z číselníku. Vhodné pro třídění a formátování. (přebírá se z Mapy EG povinností)
+	* Vlastnost Předpisy: Seznam právních předpisů, jichž se povinnost týká, respektive, které ji definují. Využije se kupříkladu pro přehledné filtrování či pro vazby v RPP. (přebírá se z Mapy EG povinností)
 	* Vlastnost Verze: Číslo verze záznamu 
-	* Vlastnost Stav plnění: Hodnota samotného vyhodnocení, jak si daný úřad určitou povinnost plní. Je jednou z hodnot závazného číselníku, znamená obecné vyhodnocení. Podle ní se dá filtrovat a dále třídit a je ukazatelem fit celého assessmentu. 
-	* Vlastnost Zodpovědný: Uvedení jednoho konkrétního útvaru, který v úřadu zodpovídá za dohled a koordinaci k dané povinnosti. Nejedná se tedy o samotný útvar, který povinnost fakticky plní (ne vždy), ale o útvar, který má zajistit její plnění všude, kde je to nutné, napříč celým úřadem. Nejvhodnější je uvést útvar zodpovědný za realizaci dané schopnosti. 
-	* Vlastnost Priorita nápravy: Určení interní priority k potřebě řešení nápravy stavu plnění povinnosti a k realizaci příslušných opatření. (Pochopitelně úřad musí plnit všechny povinnosti a tedy jsou si rovny, nicméně v praxi je prioritnější náprava plnění kupříkladu povinností vůči klientům a jejich právu, apod. Doporučuje se určit si priority 1 až 3 kdy 1 je nutná realizace ihned.)
+	* Vlastnost Stav plnění: Hodnota samotného vyhodnocení, jak si daný úřad určitou povinnost plní. Je jednou z hodnot závazného číselníku, znamená obecné vyhodnocení. Podle ní se dá filtrovat a dále třídit a je ukazatelem celého Assessmentu EG povinností.
+	* Vlastnost Zodpovědný: Uvedení jednoho konkrétního útvaru, který v úřadu zodpovídá za dohled a koordinaci k dané povinnosti. Nejedná se tedy o samotný útvar, který povinnost fakticky plní (ne vždy), ale o útvar, který má zajistit její plnění všude, kde je to nutné, a to napříč celým úřadem. Nejvhodnější je uvést útvar zodpovědný za realizaci dané schopnosti. 
+	* Vlastnost Priorita nápravy: Určení interní priority k potřebě řešení nápravy stavu plnění povinnosti a k realizaci příslušných opatření. (Pochopitelně úřad musí plnit všechny povinnosti, a tedy jsou si rovny, nicméně v praxi je prioritnější náprava plnění kupříkladu povinností vůči klientům a jejich právu apod. Doporučuje se určit si priority 1 až 3, kdy 1 je nutná realizace ihned.)
 	* Vlastnost Termín nápravy: Očekávaný či požadovaný termín nápravy, jde tedy také o nejzasší termín skončení realizace nápravných kroků. 
 	* Vlastnost Popis nápravy: Textový popis toho, co se musí stát, aby se povinnost plnila zcela a beze zbytku. Slouží také jako základ motivace pro definici cílového stavu ICT a realizace jednotlivých projektů a opatření. 
 	* Vlastnost Vyhodnocení nápravy: Textový popis, co se konkrétně změnilo pro nápravu předchozích nevyhovujících stavů. 
-	* Vlastnost Aktualizace záznamu: Datum poslední aktualizace vyhodnocení, většinou se kryje s datumem vydání assessmentu, ale může být pochopitelně i průběžně s jednotlivými změnami. 
+	* Vlastnost Aktualizace záznamu: Datum poslední aktualizace vyhodnocení, většinou se kryje s datem vydání assessmentu, ale může být pochopitelně i průběžně s jednotlivými změnami. 
 
-Stran zodpovědnosti za správnost, první pole se berou ze zdroje, tedy především z Mapy EG povinností a za pole vztahující se ke stavu v úřadu je zodpovědný Zodpovědný útvar.
+Stran zodpovědnosti za správnost, první pole se čerpají ze zdroje, tedy především z Mapy EG povinností, a za pole vztahující se ke stavu v úřadu je zodpovědný Zodpovědný útvar.
 
 
-## 3.2. KEKOREKTUŘE Celkový přehled
+## 3.2. POKOREKTUŘE Celkový přehled
 
 Na následujícím přehledovém diagramu je vše pěkně pohromadě. Diagram může na první pohled být složitý, nicméně postupně si v dalších kapitolách vše podrobně projdeme.
 
 ![big picture Assessment povinností procesy](https://github.com/egdilna/metodika.dekompozice-povinnosti/raw/main/mapapovinnosti-diagramy/assessmentpovinnostibigpicture.png)
 
-Stručně řečeno jde o sled činností, z nichž nejdůležitější jsou: Určení Garanta Assessmentu povinností, Koordinovat naplnění Assessmentu povinností, Výběr nástroje a způsobu zpracování Assessmentu, Výběr relevantních povinností, Určení zodpovědného útvaru, Vyhodnocení plnění povinnosti, Přijmout technicko-organizační opatření pro splnění kroků narovnání povinností a Promítnutí nápravných kroků do Informační koncepce úřadu
+Stručně řečeno, jde o sled činností, z nichž nejdůležitější jsou:
 
-A samozřejmě, jako nic v úřadu, nejde o samostatnou činnost. Vše se musí dělat s rozmyslem a ve vzájemné dohodě všech účastníků a hlavně pravdivě.
+* Určení Garanta Assessmentu EG povinností,
+* Koordinovat naplnění Assessmentu EG povinností,
+* Výběr nástroje a způsobu zpracování Assessmentu EG povinností,
+* Výběr relevantních povinností,
+* Určení zodpovědného útvaru,
+* Vyhodnocení plnění povinnosti,
+* Přijmout technicko-organizační opatření pro splnění kroků narovnání povinností,
+* Promítnutí nápravných kroků do Informační koncepce úřadu.
 
 ## 3.3. ☑️ Důležité role - garant a zodpovědný a některé další
 
 Nejdůležitější role v procesech okolo zhodnocení stavu plnění povinností jsou vesměs tři a to následující:
 
 1. Vedení úřadu: Vedením úřadu myslíme kolektivní orgán, třeba poradu vedení, nebo poradu ředitele. Jde o orgán, který fakticky rozhoduje o řízení úřadu a především stanovuje jednotlivým vedoucím pracovníkům úkoly a vyhodnocuje jejich plnění. ()
-1. Garant Assessmentu povinností: Garant assessmentu povinností (garant) je Role v úřadu, do které je určena konkrétní fyzická osoba. Koordinuje sestavení, vyplnění a aktualizování Assessmentu povinností a zprostředkovává a koordinuje spolupráci a komunikaci mezi jednotlivými zodpovědnými útvary. Tento garant také zodpovídá za zpracování assessmentu a udržuje si přehled o potřebných krocích v rámci architektury i v rámci realizace nápravných opatření . ()
-1. Zodpovědný útvar: Zodpovědný za plnění povinnosti (zodpovědný) je Určená role v úřadu, většinou shodná s rolí věcného gestora za danou oblast. Pro potřeby zpracovávání Assessmentu povinností jde o tvar, nebo dokonce konkrétní zaměstnanec, který napříč celou organizací koordinuje a kontroluje dodržování dané povinnosti napříč všemi agendami a činnostmi a zodpovídá tak za její plnění. Také je odborně zodpovědný za správné vyhodnocení plnění a za nápravné kroky. ()
+2. Garant Assessmentu povinností: Garant assessmentu povinností (garant) je Role v úřadu, do které je určena konkrétní fyzická osoba. Koordinuje sestavení, vyplnění a aktualizování Assessmentu povinností a zprostředkovává a koordinuje spolupráci a komunikaci mezi jednotlivými zodpovědnými útvary. Tento garant také zodpovídá za zpracování assessmentu a udržuje si přehled o potřebných krocích v rámci architektury i v rámci realizace nápravných opatření . ()
+3. Zodpovědný útvar: Zodpovědný za plnění povinnosti (zodpovědný) je Určená role v úřadu, většinou shodná s rolí věcného gestora za danou oblast. Pro potřeby zpracovávání Assessmentu povinností jde o tvar, nebo dokonce konkrétní zaměstnanec, který napříč celou organizací koordinuje a kontroluje dodržování dané povinnosti napříč všemi agendami a činnostmi a zodpovídá tak za její plnění. Také je odborně zodpovědný za správné vyhodnocení plnění a za nápravné kroky. ()
 
 
-Jako každá aktivita ohledně řízení úřadu jde o věc průřezovou a proto níže uvádíme i další zainteresované, kteří mohou svými znalostmi přispět k co nejkvalitnéjšímu výstupu:
+Jako u každé aktivity ohledně řízení úřadu, i zde se jedná o věc průřezovou, a proto níže uvádíme i další zainteresované, kteří mohou svými znalostmi přispět k co nejkvalitnějšímu výstupu:
 
 * Věcný gestor: Útvar v organizaci, který zcela zodpovídá za danou určitou oblast, agendu nebo schopnost. ()
 * Útvar architektury úřadu: Útvar vytvářející a spravující architekturu úřadu, který ji řídí a sleduje a vyhodnocuje její realizaci. ()
@@ -294,32 +301,33 @@ Máme tedy zpracovaný podklad jako assessment, co teď?
 	1. Promítnutí nápravných kroků do Informační koncepce úřadu: Jedním z důvodů, pro který Assessment zpracováváme, je poznat skutečný stav naplňování jednotlivých povinností a především stanovit kroky, díky kterým napravíme plnění povinností tam, kde je neplníme zcela. Tyto nápravné kroky se musí promítnout ve formě záměru a opatření do Informační koncepce úřadu, a to zejména, pokud se týkají informačních systémů a ICT prostředků. Assessment nám slouží jako zdroj, ze kterého je jasné, co se má stát. Slouží tedy jako zdroj potřeb pro informační koncepci. Způsob promítnutí kroků do informační koncepce si dohodne garant se zodpovědným za IK. ()
 
 
-# 4. KEKOREKTUŘE Tvorba Roční aktualizace Assessmentu povinností
+# 4. POKOREKTUŘE Tvorba Roční aktualizace Assessmentu EG povinností
 
-Pokud máme již zpracovaný assessment, je pak součástí procesů legislativního souladu pochopitelně také zpracování roční aktualizace, i ta je opět součástí vyhodnocení IK v úřadu.
+Pokud máme již zpracovaný assessment, je pak součástí procesů legislativního souladu pochopitelně také zpracování roční aktualizace. I ta je opět součástí vyhodnocení IK v úřadu.
 
-Roční aktualizace Assessmentu povinností: Jde o roční aktualizaci Assessmentu. V ní se nově zhodnotí nové či přepracované povinnosti a především se řádně zhodnotí a uvede se změna v existujících povinnostech. ()
+Roční aktualizace Assessmentu EG povinností: Jde o roční aktualizaci Assessmentu EG povinností. V ní se nově zhodnotí nové či přepracované povinnosti, především se řádně zhodnotí a uvede se změna v existujících povinnostech. ()
 
-Při roční aktualizaci se postupuje dost podobně, jako když se vytvářela první verze assessmentu, ale s těmito zvláštnostmi:
+Při roční aktualizaci se postupuje podobně, jako když se vytvářela první verze assessmentu, ale s těmito zvláštnostmi:
 
-* Činnost Tvorba Roční aktualizace Assessmentu povinností: Při přípravě aktualizace informační koncepce se provede také aktualizace Assessmentu, která samozřejmě slouží jako znalostní podklad pro IK. Postupuje se obdobně jako při tvorbě prvního Assessmentu, ovšem s určitými odchylkami a kroky navíc. Celé to ale opět řídí a koordinuje Garant. ()
-	* Událost Identifikovat a doplnit nové povinnosti: Garant Assessmentu v rámci přípravy na roční aktualizaci Assessmentu vyhledá v Mapě EG povinností změny. Zjistí, zda se na úřad nevztahují nové povinnosti, a změny pak zapracuje do nástroje pro zhodnocení. ()
-	* Událost Aktualizovat povinnosti již vedené v Assessmentu povinností: Garant Assessmentu zajistí aktualizaci stávajícího seznamu povinností – kontrolou povinností v Mapě EG povinností identifikuje zrušené či upravené povinnosti, tedy zda se nově některé povinnosti na úřad již nevztahují nebo zda nedošlo ke změně některých atributů povinnosti (orientuje se datem uvedeným u konkrétní povinnosti). ()
+* Činnost Tvorba Roční aktualizace Assessmentu EG povinností: Při přípravě aktualizace informační koncepce se provede také aktualizace Assessmentu EG povinností, která samozřejmě slouží jako znalostní podklad pro IK. Postupuje se obdobně jako při tvorbě prvního Assessmentu, ovšem s určitými odchylkami a kroky navíc. Celé to ale opět řídí a koordinuje Garant. ()
+	* Událost Identifikovat a doplnit nové povinnosti: Garant Assessmentu v rámci přípravy na roční aktualizaci Assessmentu EG povinností vyhledá v Mapě EG povinností změny. Zjistí, zda se na úřad nevztahují nové povinnosti, změny pak zapracuje do nástroje pro zhodnocení. ()
+	* Událost Aktualizovat povinnosti již vedené v Assessmentu EG povinností: Garant Assessmentu EG povinností zajistí aktualizaci stávajícího seznamu povinností – kontrolou povinností v Mapě EG povinností, identifikuje zrušené či upravené povinnosti, tedy zda se nově některé povinnosti na úřad již nevztahují, nebo, zda nedošlo ke změně některých atributů povinnosti (orientuje se datem uvedeným u konkrétní povinnosti). ()
 	* Činnost Vyhodnocení posunu v plnění povinnosti: Kontinuální nebo pravidelně se opakující činnost, při které se nejdéle jednou ročně kontroluje stav plnění jednotlivých povinností a vyhodnocují se změny oproti předchozímu stavu. ()
-		* Událost Určit změny skutečného stavu plnění oproti předchozím údajům v Assessmentu povinností: Zanesení změn v nástroji pro Assessment povinností v rámci roční aktualizace – představuje zejména změny stavu plnění z "neplnění" na "plnění" povinností a opačně. Posuzuje se každá povinnost, i ty plněné při předchozím zhodnocení. Posuzuje se stejně jako u určení stavu plnění. ()
+		* Událost Určit změny skutečného stavu plnění oproti předchozím údajům v Assessmentu EG povinností: Zanesení změn v nástroji pro Assessment EG povinností v rámci roční aktualizace – představuje zejména změny stavu plnění z "neplnění" na "plnění" povinností a opačně. Posuzuje se každá povinnost, i ty plněné při předchozím zhodnocení. Posuzuje se stejně jako u určení stavu plnění. ()
 
-To stručně řečeno znamená, že garant provede aktualizaci (buď automatizovaně přes rozhraní pro datovou sadu otevřených dat, nebo ručně z Mapy povinností podle kódu) povinností a
+To stručně řečeno znamená, že Garant provede aktualizaci (buď automatizovaně přes rozhraní pro datovou sadu otevřených dat, nebo ručně z Mapy EG povinností podle kódu) povinností a:
 
 1. U nových povinností se provede jejich zhodnocení jako u prvního assessmentu, tedy se určí zodpovědný a ten provede vyhodnocení (viz předchozí kapitola)
-1. U aktualizovaných povinností zodpovědný při vyhodnocení především zohlední, co se v dané povinnosti změnilo
-1. U aktualizace stavu plnění již dříve vyhodnocených povinností se postupuje dle seznamu výše, tedy zodpovědný útvar zapíše posun a pokud se nepodařilo stav naplnit do možnosti "plní zcela", opět zhodnotí a stanoví nápravné kroky a jejich prioritizaci.
+2. U aktualizovaných povinností zodpovědný při vyhodnocení především zohlední, co se v dané povinnosti změnilo
+3. U aktualizace stavu plnění již dříve vyhodnocených povinností se postupuje dle seznamu výše, tedy zodpovědný útvar zapíše posun a pokud se nepodařilo stav naplnit do možnosti "plní zcela", opět zhodnotí a stanoví nápravné kroky a jejich prioritizaci.
 
 Dále se postupuje obecným procesem projednávání a schvalování aktualizace assessmentu a dalšími navazujícími kroky.
 
 
 
-* Původní vyhodnocení plnění povinnosti: Při aktualizaci Assessmentu povinností se u již zapsaných povinností vychází ze stavu, který je u dané povinnosti uveden v poslední verzi Assessmentu. Jakékoliv změny a posuny tedy vyhodnocujeme k tomuto původnímu záznamu v Assessmentu povinností. ()
-* Nové aktualizované vyhodnocení plnění povinnosti: Při aktualizaci Assessmentu jde o nově zapsaný stav plnění, tedy nové hodnoty v řádku dané povinnosti. ()
+* Původní vyhodnocení plnění povinnosti: Při aktualizaci Assessmentu EG povinností se u již zapsaných povinností vychází ze stavu, který je u dané povinnosti uveden v poslední verzi Assessmentu EG povinností. Jakékoliv změny a posuny tedy vyhodnocujeme k tomuto původnímu záznamu v Assessmentu EG povinností. ()
+* Nové aktualizované vyhodnocení plnění povinnosti: Při aktualizaci Assessmentu EG povinností jde o nově zapsaný stav plnění, tedy nové hodnoty v řádku dané povinnosti. ()
+
 
 # 5. KEKOREKTUŘE Vyhodnocení stavu plnění povinnosti a kroky k nápravě
 
