@@ -39,7 +39,7 @@ Metodika Assessmentu eGovernment (EG) povinností, která se vám dostává do r
 
 Příjemcem metodiky je vedení úřadu, architekti (byznys architekti, architekti informačních systémů, IT a ICT architekti atp.). Primárně je však určena Garantovi Assessmentu EG povinností, jehož role musí být úřadem obsazena v samém začátku celého procesu. Nejblíže je role Garanta právě architektům. Není‑li v úřadu doposud role obsazena, je vhodné do ní určit/jmenovat zkušeného architekta znalého celkové architektury úřadu.
 
-Metodika je rozdělena do XX části...
+Metodika je rozdělena do XX částí...
 
 * V první přípravné části jsou vysvětleny základní pojmy, zejména pak popis role Garanta assessmentu EG povinností, vysvětlení, co je to „povinnost“, „zhodnocení plnění povinností“, kde je a jak se používá Mapa EG povinností a stručně je popsána i „Znalostní architektura“.
 * V druhé a třetí části jsou již praktické postupy pro identifikaci relevantních EG povinností vztahující se na úřady. Postupy, jak tyto povinnosti zpracovat a jak hodnotit jejich plnění. Obě tyto části jsou doplněny o procesní diagramy provázející Garanta Assessmentu EG povinností i ostatní aktéry krok po kroku celým procesem.
