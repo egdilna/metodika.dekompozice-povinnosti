@@ -167,6 +167,6 @@ USECASE "Promítnutí nápravných kroků do Informační koncepce úřadu" as I
 IKzodpovedny -- IKzarazeni
 IKzodpovedny -- IKpromitnuti
 VedeniUradu - Garant
-Garant . Zodpovedny
+Garant - Zodpovedny
 @enduml
 
