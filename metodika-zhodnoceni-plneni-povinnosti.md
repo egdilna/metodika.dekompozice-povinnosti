@@ -41,9 +41,9 @@ Příjemcem metodiky je vedení úřadu, architekti (byznys architekti, architek
 
 Metodika je rozdělena do pěti hlavních částí, a to „1. Úvod“, „2. Úřad a Povinnosti“, „3. Tvorba zhodnocení plnění povinností“, „4. Tvorba Roční aktualizace Assessmentu EG povinností“ a „5. Vyhodnocení stavu plnění povinnosti a kroky k nápravě“.
 
-* V první přípravné části jsou kromě úvodních informací stručně vysvětleny základní pojmy, zejména pak popis role Garanta assessmentu EG povinností, vysvětlení, co je to „zhodnocení plnění povinností“ a stručně je popsány i role „Subjekt povinnosti“ a „Zodpovědný za plnění povinnosti“.
+* V první přípravné části jsou kromě úvodních informací stručně vysvětleny základní pojmy, zejména pak popis role Garanta assessmentu EG povinností, vysvětlení, co je to „zhodnocení plnění povinností“ a stručně jsou popsány i role „Subjekt povinnosti“ a „Zodpovědný za plnění povinnosti“.
 * Druhá část se již detailněji věnuje problematice povinností, mj. i v kontextu architektury úřadu, a vysvětluje použití a přístup k Mapě EG povinností.
-* Třetí a čtvrtá část již obsahuje praktické postupy pro identifikaci relevantních EG povinností vztahující se na úřady. Postupy, jak tyto povinnosti zpracovat a jak hodnotit jejich plnění. Čtvrtá část popisující hlavní část Assessmentu EG povinnosti je doplněna o procesní diagramy provázející Garanta Assessmentu EG povinností i ostatní aktéry krok po kroku celým procesem. Čtvrtá část úzce navazuje popisem roční aktualizace dříve provedeného zhodnocení plnění povinností.
+* Třetí a čtvrtá část již obsahuji praktické postupy pro identifikaci relevantních EG povinností vztahujících se na úřady. Postupy, jak tyto povinnosti zpracovat a jak hodnotit jejich plnění. Čtvrtá část popisující hlavní část Assessmentu EG povinnosti je doplněna o procesní diagramy provázející Garanta Assessmentu EG povinností i ostatní aktéry celým procesem. Čtvrtá část úzce navazuje popisem roční aktualizace dříve provedeného zhodnocení plnění povinností.
 * Poslední pátá část se podrobněji věnujeme faktickému určení skutečného stavu jako základu pro vyhodnocení plnění jednotlivých povinností.
 
 ## 1.3. ☑️ Historie změn
