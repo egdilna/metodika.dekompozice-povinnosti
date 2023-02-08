@@ -78,7 +78,7 @@ S těmito pojmy metodika běžně pracuje a hovoříme-li tedy kupříkladu o "z
 
 Pokud bychom k povinnosti přistupovali jen podle prvního bodu a budeme k tomu přistupovat jako k nutnému zlu, sice si uděláme rámec pro splnění zákonů, ovšem další pozitivní přínosy poznání plnění povinností z toho mít nebudeme. Pokud ale budeme k povinnosti přistupovat i podle druhého bodu jako k poznání aktuálního stavu, bude to pro nás znamenat cenný zdroj. Je tedy vhodné se na povinnosti a jejich plnění dívat pozitivně. Přistupujme k tomu tedy jako k příležitosti.
 
-Co je to tedy ta povinnost? Lidsky řečeno, je to jedna konkrétní věc, kterou podle zákona musíme dělat. Definuje ji nějaký zákon, a dokonce i konkrétní ustanovení (může jich být i více). Pro nás to znamená nějakou práci v rámci našich procesů. Povinnost může přitom být zcela konkrétní a jedinečná, jako třeba "Sdělit konkrétně někomu něco" (sdílení jednoho údaje jinému OVM či klientovi), ale většinou jde o povinnost obecnou, jako "zaslat osvědčení o digitálním úkonu", nebo ještě obecnější "poskytovat naše agendové údaje". Čím obecnější povinnost je, tím se hůře chápe přes celý úřad. Na druhou stranu, každou povinnost můžeme zařadit do nějaké oblasti, kterou má v našem úřadu někdo nastarost.
+Co je to tedy ta povinnost? Lidsky řečeno, je to jedna konkrétní věc, kterou podle zákona musíme dělat. Definuje ji nějaký zákon, a dokonce i konkrétní ustanovení (může jich být i více). Pro nás to znamená nějakou práci v rámci našich procesů. Povinnost může přitom být zcela konkrétní a jedinečná, jako třeba "Sdělit konkrétně někomu něco" (sdílení jednoho údaje jinému OVM či klientovi), ale většinou jde o povinnost obecnou, jako "zaslat osvědčení o digitálním úkonu", nebo ještě obecnější "poskytovat naše agendové údaje". Čím obecnější povinnost je, tím se hůře chápe přes celý úřad. Na druhou stranu, každou povinnost můžeme zařadit do nějaké oblasti, kterou má v našem úřadu někdo na starost.
 
 
 ## 2.2. POKOREKTUŘE Povinnost a architektura úřadu
@@ -111,7 +111,7 @@ Povinnosti, zejména jejich plnění, jsou důležité i pro ostatní oblasti ú
 
 ## 2.3. POKOREKTUŘE Dva druhy povinností
 
-Povinnosti jako takové se defacto dají rozdělit do dvou forem/kategorií:
+Povinnosti jako takové se de facto dají rozdělit do dvou forem/kategorií:
 
 1. Povinnosti agendové: Jsou zaznamenány jako agendové činnosti v rámci ohlášení agendy v Registru práv a povinností. Pocházejí jako zcela konkrétní a víceméně jednoúčelové a jednoprocesní povinnosti z daného ustanovení agendového zákona.
 2. Obecné povinnosti: Jde o obecné, a to vždy povinně dodržované povinnosti, jež jsou platné nehledě na agendu, v níž se vykonávají činnosti. Takové povinnosti jsou pro zmapování složitější, ale musí se uplatňovat vždy na úrovni celého úřadu. Tyto povinnosti jsou z pohledu digitalizace vedeny a mapovány v rámci Mapy EG povinností.
@@ -199,7 +199,7 @@ V Assessmentu EG povinností se vedou jednotlivé povinnosti a u nich se vedou p
 	* Vlastnost Stav plnění: Hodnota samotného vyhodnocení, jak si daný úřad určitou povinnost plní. Je jednou z hodnot závazného číselníku, znamená obecné vyhodnocení. Podle ní se dá filtrovat a dále třídit a je ukazatelem celého Assessmentu EG povinností.
 	* Vlastnost Zodpovědný: Uvedení jednoho konkrétního útvaru, který v úřadu zodpovídá za dohled a koordinaci k dané povinnosti. Nejedná se tedy o samotný útvar, který povinnost fakticky plní (ne vždy), ale o útvar, který má zajistit její plnění všude, kde je to nutné, a to napříč celým úřadem. Nejvhodnější je uvést útvar zodpovědný za realizaci dané schopnosti. 
 	* Vlastnost Priorita nápravy: Určení interní priority k potřebě řešení nápravy stavu plnění povinnosti a k realizaci příslušných opatření. (Pochopitelně úřad musí plnit všechny povinnosti, a tedy jsou si rovny, nicméně v praxi je prioritnější náprava plnění kupříkladu povinností vůči klientům a jejich právu apod. Doporučuje se určit si priority 1 až 3, kdy 1 je nutná realizace ihned.)
-	* Vlastnost Termín nápravy: Očekávaný či požadovaný termín nápravy, jde tedy také o nejzasší termín skončení realizace nápravných kroků. 
+	* Vlastnost Termín nápravy: Očekávaný či požadovaný termín nápravy, jde tedy také o nejzazší termín skončení realizace nápravných kroků. 
 	* Vlastnost Popis nápravy: Textový popis toho, co se musí stát, aby se povinnost plnila zcela a beze zbytku. Slouží také jako základ motivace pro definici cílového stavu ICT a realizace jednotlivých projektů a opatření. 
 	* Vlastnost Vyhodnocení nápravy: Textový popis, co se konkrétně změnilo pro nápravu předchozích nevyhovujících stavů. 
 	* Vlastnost Aktualizace záznamu: Datum poslední aktualizace vyhodnocení, většinou se kryje s datem vydání assessmentu, ale může být pochopitelně i průběžně s jednotlivými změnami. 
@@ -213,7 +213,7 @@ Na následujícím přehledovém diagramu je vše pěkně pohromadě. Diagram m�
 
 ![big picture Assessment povinností procesy](https://github.com/egdilna/metodika.dekompozice-povinnosti/raw/main/mapapovinnosti-diagramy/assessmentpovinnostibigpicture.png)
 
-Stručně řečeno, jde o sled činností, z nichž nejdůležitější jsou:
+Stručně řečeno, jde o sled událostí a činností, z nichž nejdůležitější jsou:
 
 * Určení Garanta Assessmentu EG povinností,
 * Koordinovat naplnění Assessmentu EG povinností,
