@@ -131,7 +131,7 @@ Mapa EG povinností je nástroj, kde jsou evidovány veškeré obecné EG povinn
 
 Vše o Mapě EG povinností, a to včetně přístupu k jejím nástrojům, najdete na adrese:
 
-Https://egdilna.cz/mapapovinnosti 
+[Https://egdilna.cz/mapapovinnosti](https://www.egdilna.cz/mapapovinnosti/) 
 
 Na tomto webu je i související dokumentace a návody, jak s Mapou EG povinností pracovat.
 
