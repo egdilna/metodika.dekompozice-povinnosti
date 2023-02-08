@@ -325,7 +325,7 @@ Dále se postupuje obecným procesem projednávání a schvalování aktualizace
 
 # 5. POKOREKTUŘE Vyhodnocení stavu plnění povinnosti a kroky k nápravě
 
-Nejdůležitější částí assessmentu je právě zhodnocení u jednotlivých povinností, proto se celý assessment tvoří. Ať už bude samotné zhodnocení veřejnou částí informační koncepce, nebo nikoliv, je nezbytné, abychom byli při vyhodnocování opravdu upřímní a pravdiví. Stav vyhodnocení nám má sloužit pro lepší poznání, hlavně však jako zdroj pro potřebné změny. Může se jednat o změny procesní, legislativní, technické či architektonické.
+Nejdůležitější částí assessmentu je právě zhodnocení u jednotlivých povinností, proto se celý assessment tvoří. Ať už bude samotné zhodnocení veřejnou částí informační koncepce, nebo nikoliv, je nezbytné, abychom byly při vyhodnocování opravdu upřímní a pravdiví. Stav vyhodnocení nám má sloužit pro lepší poznání, hlavně však jako zdroj pro potřebné změny. Může se jednat o změny procesní, legislativní, technické či architektonické.
 
 ## 5.1. POKOREKTUŘE Obecný postup při zhodnocení plnění povinnosti
 
