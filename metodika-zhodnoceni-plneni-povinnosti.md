@@ -163,7 +163,7 @@ Nejdůležitějšími číselníky jsou Subjekty a Skupiny povinností. Podrobno
 * Kód: P237
 * Název: Poskytnout subjektu elektronický výpis z ISVS a údaje z ISVS o subjektu
 * Popis: Správce informačního systému veřejné správy musí umožnit držiteli zaručené identity prostředkem zaručené identifikace výpis z informačního systému a údaje z informačního systému o ní vedené, nebo informaci, že informační systém takové údaje neobsahuje. Toto musí umožnit také prostřednictvím Portálu veřejné správy.
-* Určuje: § 9 odst 4 zákona 365/2000
+* Určuje: § 9 odst. 4 zákona 365/2000
 * Typ: Povinnost
 * Skupina: Povinnosti k ISVS
 * Subjekty: Orgány veřejné moci, Orgány veřejné správy, and Správci informačních systémů
