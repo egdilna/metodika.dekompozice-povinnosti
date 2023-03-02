@@ -1,6 +1,8 @@
 ---
 Title: Metodika zhodnocení plnění povinností a provádění Assessmentu EG povinností a jeho udržování
 subtitle: Metodický dokument pro OVM zpracovávající si přehled svých EG obecných povinností a jejich zhodnocení, obsahuje popisnou a praktickou část s uvedením jednotlivých kroků a procesů
+version: 1.1
+date: 2023-03-02
 ---
 
 
@@ -41,7 +43,13 @@ Příjemcem metodiky je vedení úřadu, architekti (byznys architekti, architek
 
 ## 1.3. Historie změn
 
-Toto je první verze metodiky.
+Verze 1.1 ze dne 2.3.2023
+
+| Datum | Verze | Popis změn |
+|---|---|----------|
+| 2.3.2023 | 1.1 | Z připomínek vzešly dvě hlavní: Změna Roční aktualizace assessmentu na Aktualizaci assessmentu (neudáváme pevnou periodicitu) a tip pro zapsání a relevanci datumu poslední aktualizace zdrojů z Mapy povinností. Obojí zapracování do této minoritní verze. |
+| 12.2.2023 | 1.0 | První public draft metodiky, ale už se může použít. Je zároveň k připomínkám komukoliv |
+
 
 ## 1.4. Shrnutí metodiky
 
@@ -297,25 +305,29 @@ Máme tedy zpracovaný podklad jako assessment, co teď?
 	1. Promítnutí nápravných kroků do Informační koncepce úřadu: Jedním z důvodů, pro který assessment zpracováváme, je poznat skutečný stav naplňování jednotlivých povinností a především stanovit kroky, díky kterým napravíme plnění povinností tam, kde je neplníme zcela. Tyto nápravné kroky se musí promítnout ve formě záměru a opatření do Informační koncepce úřadu, a to zejména týkají-li se informačních systémů a ICT prostředků. Assessment nám slouží jako zdroj, ze kterého je jasné, co se má stát. Slouží tedy jako zdroj potřeb pro informační koncepci. Způsob promítnutí kroků do informační koncepce vyjedná garant se zodpovědným za IK.
 
 
-# 4. Tvorba Roční aktualizace Assessmentu EG povinností
+# 4. Tvorba Aktualizace Assessmentu EG povinností
 
-Pokud již máme zpracovaný assessment, je pak součástí procesů legislativního souladu pochopitelně také zpracování roční aktualizace. Ta je rovněž součástí vyhodnocení IK v úřadu.
+Pokud již máme zpracovaný assessment, je pak součástí procesů legislativního souladu pochopitelně také zpracování Aktualizace. Ta je rovněž součástí vyhodnocení IK v úřadu.
 
-Roční aktualizace Assessmentu EG povinností: Jde o roční aktualizaci Assessmentu EG povinností. V ní se nově zhodnotí povinnosti vzniklé či přepracované od provedení posledního assessmentu a řádně se zhodnotí existující povinnosti a vyznačí případné změny.
+Aktualizace Assessmentu EG povinností: Jde o Aktualizaci Assessmentu EG povinností. V ní se nově zhodnotí povinnosti vzniklé či přepracované od provedení posledního assessmentu a řádně se zhodnotí existující povinnosti a vyznačí případné změny.
 
-Při roční aktualizaci se postupuje obdobně, jako při tvorbě prvotní verze assessmentu, avšak s těmito odlišnostmi:
+Při Aktualizaci se postupuje obdobně, jako při tvorbě prvotní verze assessmentu, avšak s těmito odlišnostmi:
 
-* Činnost Tvorba Roční aktualizace Assessmentu EG povinností: Při přípravě aktualizace informační koncepce se provede také aktualizace Assessmentu EG povinností, která samozřejmě slouží jako znalostní podklad pro IK. Postupuje se obdobně jako při tvorbě prvního Assessmentu, ovšem s určitými odchylkami a kroky navíc. Celé to ale opět řídí a koordinuje garant.
-	* Událost Identifikovat a doplnit nové povinnosti: Garant Assessmentu EG povinností v rámci přípravy na roční aktualizaci Assessmentu EG povinností vyhledá v Mapě EG povinností změny. Zjistí, zda se na úřad nevztahují nové povinnosti, změny pak zapracuje do nástroje pro zhodnocení.
+* Činnost Tvorba Aktualizace Assessmentu EG povinností: Při přípravě aktualizace informační koncepce se provede také aktualizace Assessmentu EG povinností, která samozřejmě slouží jako znalostní podklad pro IK. Postupuje se obdobně jako při tvorbě prvního Assessmentu, ovšem s určitými odchylkami a kroky navíc. Celé to ale opět řídí a koordinuje garant.
+	* Událost Identifikovat a doplnit nové povinnosti: Garant Assessmentu EG povinností v rámci přípravy na Aktualizaci Assessmentu EG povinností vyhledá v Mapě EG povinností změny. Zjistí, zda se na úřad nevztahují nové povinnosti, změny pak zapracuje do nástroje pro zhodnocení.
 	* Událost Aktualizovat povinnosti již vedené v Assessmentu EG povinností: Garant Assessmentu EG povinností zajistí aktualizaci stávajícího seznamu povinností, a to kontrolou povinností v Mapě EG povinností. Identifikuje zrušené či upravené povinnosti, tedy zjistí, zda se nově některé povinnosti na úřad již nevztahují nebo zda nedošlo ke změně některých atributů povinnosti (orientuje se datem uvedeným u konkrétní povinnosti).
 	* Činnost Vyhodnocení posunu v plnění povinnosti: Kontinuální nebo pravidelně se opakující činnost, při které se nejdéle jednou ročně kontroluje stav plnění jednotlivých povinností a vyhodnocují se změny oproti předchozímu stavu.
-		* Událost Určit změny skutečného stavu plnění oproti předchozím údajům v Assessmentu EG povinností: Zanesení změn v nástroji pro Assessment EG povinností v rámci roční aktualizace – představuje zejména změny stavu plnění z "neplnění" na "plnění" povinností a opačně. Posuzuje se každá povinnost, i ty plněné při předchozím zhodnocení. Posuzuje se stejně jako u určení stavu plnění.
+		* Událost Určit změny skutečného stavu plnění oproti předchozím údajům v Assessmentu EG povinností: Zanesení změn v nástroji pro Assessment EG povinností v rámci Aktualizace – představuje zejména změny stavu plnění z "neplnění" na "plnění" povinností a opačně. Posuzuje se každá povinnost, i ty plněné při předchozím zhodnocení. Posuzuje se stejně jako u určení stavu plnění.
 
 To znamená, že garant provede aktualizaci (buď automatizovaně přes rozhraní pro datovou sadu otevřených dat, nebo ručně z Mapy EG povinností podle kódu) povinností a:
+
+✴️ POZOR: Důležité je datum, kdy se naposledy aktualizovaly povinnosti z Mapy povinností a ne datum, kdy byl schválen poslední assessment. Protože očekáváme určitý čas na jeho tvorbu a protože povinnosti se v mapě průběžně mění, je třeba zohlednit při jejich aktualizaci jakékoliv změny od datumu, kdy jsme z mapy naposledy čerpali.
+
 
 1. U nových povinností se provede jejich zhodnocení jako u prvního assessmentu, tedy se určí zodpovědný a ten provede vyhodnocení (viz předchozí kapitola)
 2. U aktualizovaných povinností zodpovědný při vyhodnocení především zohlední, co se v dané povinnosti změnilo
 3. U aktualizace stavu plnění již dříve vyhodnocených povinností se postupuje dle seznamu výše, tedy zodpovědný útvar zapíše posun a pokud se nepodařilo stav naplnit do možnosti "plní zcela", opět zhodnotí a stanoví nápravné kroky a jejich prioritizaci.
+
 
 Dále se postupuje obecným procesem projednávání a schvalování aktualizace assessmentu a dalšími navazujícími kroky.
 
@@ -370,12 +382,12 @@ Očekává se, že zodpovědný útvar zná stav plnění povinností, neboť to
 Pro samotný stav plnění existuje závazný číselník s následujícími hodnotami, ze kterých zodpovědný útvar vybere:
 
 * Číselník Stav plnění: Číselník hodnot pro vyhodnocení do Assessmentu EG povinností.
-	* Položka Plní zcela: Vyhodnoceno tak, že se plní zcela, a to ve všech případech a s dodržením všech podrobností. (I u takto plněné povinnosti je třeba při roční aktualizaci vyhodnotit, zda je stále plněna.)
+	* Položka Plní zcela: Vyhodnoceno tak, že se plní zcela, a to ve všech případech a s dodržením všech podrobností. (I u takto plněné povinnosti je třeba při Aktualizaci vyhodnotit, zda je stále plněna.)
 	* Položka Dosud neplní: Vyhodnoceno tak, že se neplní vůbec, nebo se plní minimálně, nebo natolik špatně, že na to nelze brát zřetel. (Takové plnění je třeba zlepšit, vyhodnocuje se při dalším assessmentu.)
 	* Položka Plní částečně: Vyhodnoceno tak, že se sice plní, nikoliv však zcela správně, nebo ne ve všech případech správně. Jedná se tedy o částečné plnění, je třeba tento stav plnění zlepšit. (Vyhodnocuje se při dalším assessmentu.)
 	* Položka Není relevantní: Pro daný úřad Vyhodnoceno jako nerelevantní povinnost, úřadu se tedy netýká, protože takovou povinnost má plnit jiný úřad. (Při použití této hodnoty vyhodnocení je třeba velice důkladně zvážit, zda je opravdu pro danou instituci nerelevantní, nebo si takovou nerelevantnost úřad jen chybně vykládá.)
 
-Je důležité tuto hodnotu zvolit správně. U povinností, jež si chceme v celkovém přehledu ponechat a jež se nás netýkají, vybereme hodnotu "Není relevantní". Ostatní povinnosti ale zhodnotíme správně. Pouze pokud zodpovědný útvar bezpečně a prokazatelně ví, že se daná povinnost plní opravdu ve všech případech napříč celým úřadem a všemi relevantními činnostmi, pak zadá hodnotu "Plní zcela", tím vyhodnocení u dané povinnosti končí. Je dobré se přesvědčit při další roční aktualizaci, zda tento stav trvá, nicméně nepředpokládá se jeho změna k horšímu, a proto není nutné se tímto dále zabývat.
+Je důležité tuto hodnotu zvolit správně. U povinností, jež si chceme v celkovém přehledu ponechat a jež se nás netýkají, vybereme hodnotu "Není relevantní". Ostatní povinnosti ale zhodnotíme správně. Pouze pokud zodpovědný útvar bezpečně a prokazatelně ví, že se daná povinnost plní opravdu ve všech případech napříč celým úřadem a všemi relevantními činnostmi, pak zadá hodnotu "Plní zcela", tím vyhodnocení u dané povinnosti končí. Je dobré se přesvědčit při další Aktualizaci, zda tento stav trvá, nicméně nepředpokládá se jeho změna k horšímu, a proto není nutné se tímto dále zabývat.
 
 Zbývají dvě hodnoty, které zároveň zakládají další souvislosti, a to nutnost napravit stav plnění povinnosti tak, aby co nejdříve mohl být označen jako "Plní zcela". Rozlišujeme pak mezi stavem, kdy neplníme vůbec a možná ani dosud netušíme, jak do toho, a stavem, kdy nějak plníme.
 
@@ -386,7 +398,7 @@ Pokud jsme s plněním dané povinnosti ani nezačali, zvolíme hodnotu „Dosud
 ✴️ POZOR: Možná bude mít určitý úřad tendenci nadsazovat faktický stav plnění povinností, aby tím nedával najevo, že některé zákonem stanovené závazné povinnosti neplní nebo že na to není připraven. Ve vlastním zájmu by se takovému chování měl úřad vyvarovat, hlavní motivací a potřebou je poznání reálného stavu plnění povinností a případné nastolení cesty k nápravě. Z tohoto pohledu je důležité na věc nehledět jako na „sebeudání“, je třeba si uvědomit, že v naprosté většině případů se daná povinnost neplní již delší dobu, a to díky nesystémovému řešení. Úřad se tedy nemůže vymlouvat na skutečnost, že neplnění povinností odhalil teprve nyní, a to na základě zpracování Assessmentu EG povinností.
 
 
-<ins>
+
 
 
 ## 5.4 Pár tipů do praxe
@@ -397,4 +409,3 @@ Pokud jsme s plněním dané povinnosti ani nezačali, zvolíme hodnotu „Dosud
 4. Prioritizaci nápravných úkonů nezapomeňte správně promítnout i do katalogu záměrů jež vedete ve své informační koncepci, aby to celé sedělo.
 5. V případě potřeby si klidně rozšiřte to, co v assessmentu vedete, musíte ale vždy zachovat minimálně povinný rozsah informací, ale můžete přidávat další vlastnosti (sloupce v tabulce). Třeba se hodí přidat nějaký sloupec, kde budete sledovat stav daného záznamu, nebo sloupec s interními poznámkami zodpovědného útvaru, nebo sloupec se seznamem systémů, kterých se změny dotknou
 
-</ins>
