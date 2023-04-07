@@ -1,10 +1,17 @@
 ---
-Title: Metodika zhodnocení plnění povinností a provádění Assessmentu EG povinností a jeho udržování
-subtitle: Metodický dokument pro OVM zpracovávající si přehled svých EG obecných povinností a jejich zhodnocení, obsahuje popisnou a praktickou část s uvedením jednotlivých kroků a procesů
+layout: default
+title: Metodika zhodnocení plnění povinností a provádění Assessmentu EG povinností a jeho udržování
+description: “Metodický dokument pro OVM zpracovávající si přehled svých EG obecných povinností a jejich zhodnocení, obsahuje popisnou a praktickou část s uvedením jednotlivých kroků a procesů”
 version: 1.1
 date: 2023-03-02
+parent: Oblast Strategie a řízení
+nav_order: 6
+grand_parent: Metodiky
 ---
 
+
+- TOC
+{:toc}
 
 
 
@@ -25,11 +32,11 @@ Autoři dokumentu: Miroslav Pavelka, Michal Rada, Vladimír Dvořák, Jan Jakoub
 
 Dokument je k dispozici v otevřeném formátu spolu se všemi souvislostmi a zdroji na veřejném GIT repozitáři na adrese
 
-https://github.com/egdilna/metodika.dekompozice-povinnosti
+[https://github.com/egdilna/metodika.dekompozice-povinnosti](https://github.com/egdilna/metodika.dekompozice-povinnosti)
 
 Aktuální verze metodiky je vždy k dispozici na webu EG metodiky na adrese
 
-https://egdilna.cz/metodiky
+[http://www.egdilna.cz/metodiky/metodiky/strategie/metodika-zhodnoceni-plneni-povinnosti.html](http://www.egdilna.cz/metodiky/metodiky/strategie/metodika-zhodnoceni-plneni-povinnosti.html)
 
 
 
@@ -46,7 +53,7 @@ Příjemcem metodiky je vedení úřadu, architekti (byznys architekti, architek
 Verze 1.1 ze dne 2.3.2023
 
 | Datum | Verze | Popis změn |
-|---|---|----------|
+|—|—|-———|
 | 2.3.2023 | 1.1 | Z připomínek vzešly dvě hlavní: Změna Roční aktualizace assessmentu na Aktualizaci assessmentu (neudáváme pevnou periodicitu) a tip pro zapsání a relevanci datumu poslední aktualizace zdrojů z Mapy povinností. Obojí zapracování do této minoritní verze. |
 | 12.2.2023 | 1.0 | První public draft metodiky, ale už se může použít. Je zároveň k připomínkám komukoliv |
 
@@ -70,7 +77,7 @@ Pro účely této metodiky do slovníku přidáváme následující pojmy:
 * Garant Assessmentu EG povinností (garant) je Role v úřadu, do které je určena konkrétní fyzická osoba. Koordinuje sestavení, vyplnění a aktualizování Assessmentu EG povinností a zprostředkovává a koordinuje spolupráci a komunikaci mezi jednotlivými zodpovědnými útvary. Tento garant také zodpovídá za zpracování assessmentu a udržuje si přehled o potřebných krocích v rámci architektury i v rámci realizace nápravných opatření . / definuje  metodika ke zhodnocení plnění povinností, využívají oblast architektury eGovernmentu, veřejná správa
 * Zodpovědný za plnění povinnosti (zodpovědný) je Určená role v úřadu, většinou shodná s rolí věcného gestora za danou oblast. Pro potřeby zpracovávání Assessmentu EG povinností jde o útvar, nebo dokonce konkrétního zaměstnance, který v celé organizaci koordinuje a kontroluje dodržování dané povinnosti napříč všemi agendami a činnostmi a zodpovídá tak za její plnění. Také je odborně zodpovědný za správné vyhodnocení plnění a za nápravné kroky. / definuje metodika ke zhodnocení plnění povinností, využívají eGovernment, veřejná správa
 
-S těmito pojmy metodika běžně pracuje a hovoříme-li kupříkladu o "zodpovědném" v rámci assessmentu, máme tím na mysli právě zodpovědný útvar.
+S těmito pojmy metodika běžně pracuje a hovoříme-li kupříkladu o “zodpovědném” v rámci assessmentu, máme tím na mysli právě zodpovědný útvar.
 
 # 2. Úřad a Povinnosti
 
@@ -86,7 +93,7 @@ S těmito pojmy metodika běžně pracuje a hovoříme-li kupříkladu o "zodpov
 
 Pokud bychom k povinnosti přistupovali jen podle prvního bodu, tedy jako k nutnému zlu, sice si uděláme rámec pro splnění zákonů, ovšem další pozitivní přínosy poznání plnění povinností z toho mít nebudeme. Pokud ale budeme k povinnosti přistupovat i podle druhého bodu jako k poznání aktuálního stavu, bude to pro nás znamenat cenný zdroj. Je tedy vhodné se na povinnosti a jejich plnění dívat pozitivně. Přistupujme k tomu tedy jako k příležitosti.
 
-Co je to tedy povinnost? Lidsky řečeno, je to jedna konkrétní věc, kterou podle zákona musíme naplňovat. Definuje ji nějaký zákon, dokonce i konkrétní ustanovení (může jich být i více). Pro nás to znamená určitou práci v rámci našich procesů. Povinnost může být zcela konkrétní a jedinečná, jako třeba "Sdělit konkrétně někomu něco" (sdílení jednoho údaje jinému OVM či klientovi), ale většinou jde o povinnost obecnou, jako "zaslat osvědčení o digitálním úkonu", nebo ještě obecnější povinnost "poskytovat naše agendové údaje". Čím obecnější povinnost je, tím se hůře chápe přes celý úřad. Na druhou stranu, každou povinnost můžeme zařadit do nějaké oblasti, kterou má v našem úřadu někdo na starost.
+Co je to tedy povinnost? Lidsky řečeno, je to jedna konkrétní věc, kterou podle zákona musíme naplňovat. Definuje ji nějaký zákon, dokonce i konkrétní ustanovení (může jich být i více). Pro nás to znamená určitou práci v rámci našich procesů. Povinnost může být zcela konkrétní a jedinečná, jako třeba “Sdělit konkrétně někomu něco” (sdílení jednoho údaje jinému OVM či klientovi), ale většinou jde o povinnost obecnou, jako “zaslat osvědčení o digitálním úkonu”, nebo ještě obecnější povinnost “poskytovat naše agendové údaje”. Čím obecnější povinnost je, tím se hůře chápe přes celý úřad. Na druhou stranu, každou povinnost můžeme zařadit do nějaké oblasti, kterou má v našem úřadu někdo na starost.
 
 
 ## 2.2. Povinnost a architektura úřadu
@@ -104,8 +111,8 @@ Architekti si asi pokládají následující otázky:
 
 1. Je vhodné do architektury modelovat povinnosti? Pokud jsou pro nás důležité a považujeme je za rozhodující zdroje poznání, tak ano. Pokud si udržujeme přehled povinností a stav jejich plnění v samostatném Assessmentu EG povinností a víme, jak je navázán na architekturu, pak jednotlivé povinnosti modelovat nemusíme.
 2. Pokud chceme modelovat povinnosti v architektuře, tak jak? Povinnost je byznys objektem, má vždy povinně vazbu z právního předpisu jako kontraktu asociací na objekt povinnosti. Pokud je povinnost součástí schopnosti či procesu a je to pro nás důležité, zmodelujeme i takovou vazbu.
-3. Co dodržovat při modelování povinností? Povinnosti si nevymýšlíme, ale využijeme připravené datové sady z Mapy EG povinností (té se věnuje kapitola 2.4). Zde si vezmeme Kód povinnosti jako ID architektonického prvku, Název jako název prvku, Popis jako popis prvku a jako stereotyp použijeme "Povinnost" s využitím konceptu "BusinessObject" a vazbu na předpis podle názvu předpisu prvku Contract, k tomu využijeme vždy příslušné prvky metamodelu.
-4. Zásadně neděláme zástupné prvky typu "povinnosti k datovým schránkám" apod. Pokud chceme v architektuře udržovat a modelovat povinnosti, tak to děláme pro jednotlivé povinnosti.
+3. Co dodržovat při modelování povinností? Povinnosti si nevymýšlíme, ale využijeme připravené datové sady z Mapy EG povinností (té se věnuje kapitola 2.4). Zde si vezmeme Kód povinnosti jako ID architektonického prvku, Název jako název prvku, Popis jako popis prvku a jako stereotyp použijeme “Povinnost” s využitím konceptu “BusinessObject” a vazbu na předpis podle názvu předpisu prvku Contract, k tomu využijeme vždy příslušné prvky metamodelu.
+4. Zásadně neděláme zástupné prvky typu “povinnosti k datovým schránkám” apod. Pokud chceme v architektuře udržovat a modelovat povinnosti, tak to děláme pro jednotlivé povinnosti.
 
 Toto zakreslení obsahuje také třeba [Soubor Metamodel Jak se co kreslí pro znalostní architekturu ve formátu Archi ArchiMate](https://github.com/egdilna/sablony/raw/main/architektonicke_modely/metamodel_znalostni_architektury_jaksecokresli.archimate)
 
@@ -114,7 +121,7 @@ Toto zakreslení obsahuje také třeba [Soubor Metamodel Jak se co kreslí pro z
 
 Povinnosti, zejména jejich plnění, jsou důležité i pro ostatní oblasti úřadu, a to včetně řízení a rozhodování:
 
-* Pomáhají ve skutečném poznání a pochopení, co má úřad (nejen) v oblasti eGovernmentu dělat, jsou dostatečně konkrétní a uchopitelné, a to narozdíl od obecných tezí, že úřad "musí dodržovat zákony".
+* Pomáhají ve skutečném poznání a pochopení, co má úřad (nejen) v oblasti eGovernmentu dělat, jsou dostatečně konkrétní a uchopitelné, a to narozdíl od obecných tezí, že úřad “musí dodržovat zákony”.
 * Jsou cenným zdrojem pro soubor řízení kvality v úřadu, (součástí je plnění zákonných povinností) a průběhu jejího zlepšování.
 * Jsou zdrojem pro potřebné změny, a to na procesní i technické úrovni v celém úřadu.
 * V jednotlivých oblastech a agendách jsou základní informací o tom, co vše se musí udělat v rámci digitalizace pro danou agendu na obecné EG úrovni.
@@ -285,8 +292,8 @@ Ve spolupráci s garantem pak zodpovědný útvar pro každou povinnost zhodnot�
 
 
 * Vyhodnocení plnění povinnosti: Pro každou jednotlivou povinnost musí být zpracováno její vyhodnocení, tedy zda a jak se daná povinnost plní a co je případně nutné učinit, aby byla plněna.
-	* Určit stávající skutečný stav naplnění povinnosti v celém úřadu: Podstatou celého assessmentu je skutečné uvedení stavu věcí. U každé povinnosti má zodpovědný útvar být schopen pravdivě a úplně zhodnotit, zda se taková povinnost v úřadu naplňuje, jestli se naplňuje dostatečně, zda ve všech případech. Podle toho se uvede stav plnění povinnosti do assessmentu. Zodpovědný útvar takovou znalost má, neboť je zodpovědný za oblast či činnost, která s povinností souvisí. Při nejistotě v míře a úplnosti naplnění povinnosti je žádoucí vyhodnotit nižší stupeň stavu naplnění (např. místo "Plní zcela" určíme pro danou povinnost "Plní částečně"). Důležité je uvádět pravdivé údaje a řešit nápravu nedostatků systémově.
-	* Vyplnit hodnotu pro Stav plnění povinnosti dle číselníku stavů: K povinnosti se v daném řádku vyplní hodnota Stav, která je jednou z hodnot závazného číselníku. Tedy buď Plní zcela, Plní částečně nebo Dosud neplní. Pro nerelevantní povinnosti, které si z nějakého důvodu chceme evidovat ve svém přehledu, lze využít hodnotu Není relevantní. Hodnotu vyplníme dle určení skutečného stavu. Stejně jako v případě vyhodnocování stavu plnění povinnosti uvedeme v nástroji pro assessment pravdivou hodnotu. Pokud si nejsme stoprocentně jisti plněním konkrétní povinnosti, zapíšeme "Plní částečně". Tyto hodnoty se následně použijí pro souhrnné statistiky a pro vyfiltrování povinností k řešení.
+	* Určit stávající skutečný stav naplnění povinnosti v celém úřadu: Podstatou celého assessmentu je skutečné uvedení stavu věcí. U každé povinnosti má zodpovědný útvar být schopen pravdivě a úplně zhodnotit, zda se taková povinnost v úřadu naplňuje, jestli se naplňuje dostatečně, zda ve všech případech. Podle toho se uvede stav plnění povinnosti do assessmentu. Zodpovědný útvar takovou znalost má, neboť je zodpovědný za oblast či činnost, která s povinností souvisí. Při nejistotě v míře a úplnosti naplnění povinnosti je žádoucí vyhodnotit nižší stupeň stavu naplnění (např. místo “Plní zcela” určíme pro danou povinnost “Plní částečně”). Důležité je uvádět pravdivé údaje a řešit nápravu nedostatků systémově.
+	* Vyplnit hodnotu pro Stav plnění povinnosti dle číselníku stavů: K povinnosti se v daném řádku vyplní hodnota Stav, která je jednou z hodnot závazného číselníku. Tedy buď Plní zcela, Plní částečně nebo Dosud neplní. Pro nerelevantní povinnosti, které si z nějakého důvodu chceme evidovat ve svém přehledu, lze využít hodnotu Není relevantní. Hodnotu vyplníme dle určení skutečného stavu. Stejně jako v případě vyhodnocování stavu plnění povinnosti uvedeme v nástroji pro assessment pravdivou hodnotu. Pokud si nejsme stoprocentně jisti plněním konkrétní povinnosti, zapíšeme “Plní částečně”. Tyto hodnoty se následně použijí pro souhrnné statistiky a pro vyfiltrování povinností k řešení.
 	* Stanovení základních kroků pro nápravu plnění: Součástí uvedení plnění povinnosti je sepsání alespoň základního popisu kroků, které se musí učinit v úřadu, aby se povinnost plnila zcela a ve všech případech. Jde jak o kroky organizační a procesní (včetně kontroly), tak ale i o kroky technické (úpravy systémů, vylepšení integrace apod.). Tyto kroky pak slouží jako základ pro záměry a opatření v IK pro zlepšení stavu.
 	* Stanovení priority pro nápravu: Je pochopitelně nutné si plnit veškeré povinnosti, a to ve snaze o narovnání nedostatků vyplývajících z Assessmentu EG povinností. Je však nezbytné nastavit správně priority podle závažnosti důsledků z neplnění některých povinností. Největší důraz je kladen na povinnosti směřující ke klientům veřejné správy. Po provedení zhodnocení si tedy úřad rozdělí neplněné povinnosti do skupin podle priorit. A ty proklientské a jinak závažné řeší přednostně.
 
@@ -317,7 +324,7 @@ Při Aktualizaci se postupuje obdobně, jako při tvorbě prvotní verze assessm
 	* Událost Identifikovat a doplnit nové povinnosti: Garant Assessmentu EG povinností v rámci přípravy na Aktualizaci Assessmentu EG povinností vyhledá v Mapě EG povinností změny. Zjistí, zda se na úřad nevztahují nové povinnosti, změny pak zapracuje do nástroje pro zhodnocení.
 	* Událost Aktualizovat povinnosti již vedené v Assessmentu EG povinností: Garant Assessmentu EG povinností zajistí aktualizaci stávajícího seznamu povinností, a to kontrolou povinností v Mapě EG povinností. Identifikuje zrušené či upravené povinnosti, tedy zjistí, zda se nově některé povinnosti na úřad již nevztahují nebo zda nedošlo ke změně některých atributů povinnosti (orientuje se datem uvedeným u konkrétní povinnosti).
 	* Činnost Vyhodnocení posunu v plnění povinnosti: Kontinuální nebo pravidelně se opakující činnost, při které se nejdéle jednou ročně kontroluje stav plnění jednotlivých povinností a vyhodnocují se změny oproti předchozímu stavu.
-		* Událost Určit změny skutečného stavu plnění oproti předchozím údajům v Assessmentu EG povinností: Zanesení změn v nástroji pro Assessment EG povinností v rámci Aktualizace – představuje zejména změny stavu plnění z "neplnění" na "plnění" povinností a opačně. Posuzuje se každá povinnost, i ty plněné při předchozím zhodnocení. Posuzuje se stejně jako u určení stavu plnění.
+		* Událost Určit změny skutečného stavu plnění oproti předchozím údajům v Assessmentu EG povinností: Zanesení změn v nástroji pro Assessment EG povinností v rámci Aktualizace – představuje zejména změny stavu plnění z “neplnění” na “plnění” povinností a opačně. Posuzuje se každá povinnost, i ty plněné při předchozím zhodnocení. Posuzuje se stejně jako u určení stavu plnění.
 
 To znamená, že garant provede aktualizaci (buď automatizovaně přes rozhraní pro datovou sadu otevřených dat, nebo ručně z Mapy EG povinností podle kódu) povinností a:
 
@@ -326,7 +333,7 @@ To znamená, že garant provede aktualizaci (buď automatizovaně přes rozhran�
 
 1. U nových povinností se provede jejich zhodnocení jako u prvního assessmentu, tedy se určí zodpovědný a ten provede vyhodnocení (viz předchozí kapitola)
 2. U aktualizovaných povinností zodpovědný při vyhodnocení především zohlední, co se v dané povinnosti změnilo
-3. U aktualizace stavu plnění již dříve vyhodnocených povinností se postupuje dle seznamu výše, tedy zodpovědný útvar zapíše posun a pokud se nepodařilo stav naplnit do možnosti "plní zcela", opět zhodnotí a stanoví nápravné kroky a jejich prioritizaci.
+3. U aktualizace stavu plnění již dříve vyhodnocených povinností se postupuje dle seznamu výše, tedy zodpovědný útvar zapíše posun a pokud se nepodařilo stav naplnit do možnosti “plní zcela”, opět zhodnotí a stanoví nápravné kroky a jejich prioritizaci.
 
 
 Dále se postupuje obecným procesem projednávání a schvalování aktualizace assessmentu a dalšími navazujícími kroky.
@@ -387,9 +394,9 @@ Pro samotný stav plnění existuje závazný číselník s následujícími hod
 	* Položka Plní částečně: Vyhodnoceno tak, že se sice plní, nikoliv však zcela správně, nebo ne ve všech případech správně. Jedná se tedy o částečné plnění, je třeba tento stav plnění zlepšit. (Vyhodnocuje se při dalším assessmentu.)
 	* Položka Není relevantní: Pro daný úřad Vyhodnoceno jako nerelevantní povinnost, úřadu se tedy netýká, protože takovou povinnost má plnit jiný úřad. (Při použití této hodnoty vyhodnocení je třeba velice důkladně zvážit, zda je opravdu pro danou instituci nerelevantní, nebo si takovou nerelevantnost úřad jen chybně vykládá.)
 
-Je důležité tuto hodnotu zvolit správně. U povinností, jež si chceme v celkovém přehledu ponechat a jež se nás netýkají, vybereme hodnotu "Není relevantní". Ostatní povinnosti ale zhodnotíme správně. Pouze pokud zodpovědný útvar bezpečně a prokazatelně ví, že se daná povinnost plní opravdu ve všech případech napříč celým úřadem a všemi relevantními činnostmi, pak zadá hodnotu "Plní zcela", tím vyhodnocení u dané povinnosti končí. Je dobré se přesvědčit při další Aktualizaci, zda tento stav trvá, nicméně nepředpokládá se jeho změna k horšímu, a proto není nutné se tímto dále zabývat.
+Je důležité tuto hodnotu zvolit správně. U povinností, jež si chceme v celkovém přehledu ponechat a jež se nás netýkají, vybereme hodnotu “Není relevantní”. Ostatní povinnosti ale zhodnotíme správně. Pouze pokud zodpovědný útvar bezpečně a prokazatelně ví, že se daná povinnost plní opravdu ve všech případech napříč celým úřadem a všemi relevantními činnostmi, pak zadá hodnotu “Plní zcela”, tím vyhodnocení u dané povinnosti končí. Je dobré se přesvědčit při další Aktualizaci, zda tento stav trvá, nicméně nepředpokládá se jeho změna k horšímu, a proto není nutné se tímto dále zabývat.
 
-Zbývají dvě hodnoty, které zároveň zakládají další souvislosti, a to nutnost napravit stav plnění povinnosti tak, aby co nejdříve mohl být označen jako "Plní zcela". Rozlišujeme pak mezi stavem, kdy neplníme vůbec a možná ani dosud netušíme, jak do toho, a stavem, kdy nějak plníme.
+Zbývají dvě hodnoty, které zároveň zakládají další souvislosti, a to nutnost napravit stav plnění povinnosti tak, aby co nejdříve mohl být označen jako “Plní zcela”. Rozlišujeme pak mezi stavem, kdy neplníme vůbec a možná ani dosud netušíme, jak do toho, a stavem, kdy nějak plníme.
 
 Částečné plnění povinnosti bude pravděpodobně nejčastějším stavem plnění povinnosti. Takový stav vyhodnotíme v případě, kdy je povinnost sice plněna kontinuálně, avšak po věcné stránce ne v plném rozsahu, případně v situacích, kdy je plněna povinnost po věcné stránce kompletně, nicméně pouze v určitých případech. Pokud si tedy nejsme stoprocentně jisti, že danou povinnost splníme skutečně ve všech relevantních případech, zvolíme stav „Plní částečně“. Zvolená hodnota nevypovídá o míře naplňování konkrétní povinnosti, ale indikuje potřebu učinit určitá opatření pro nápravu.
 
